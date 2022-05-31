@@ -3,3 +3,11 @@ author:
   name: Piotr Majkrzak
   email: piotr@majkrzak.dev
 lang: en
+
+
+# Disable problematic plugins hardcoded by github
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins
+optional_front_matter:
+  enabled: false
+titles_from_headings:
+  enabled: true
