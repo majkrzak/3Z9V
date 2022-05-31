@@ -10,4 +10,4 @@ lang: en
 optional_front_matter:
   enabled: false
 titles_from_headings:
-  enabled: true
+  enabled: false
