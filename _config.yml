@@ -11,3 +11,7 @@ optional_front_matter:
   enabled: false
 titles_from_headings:
   enabled: false
+relative_links:
+  enabled: false
+readme_index:
+  enabled: false
