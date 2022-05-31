@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 600pt;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #f6eee3;
+}
+
+header, nav, main, footer {
+    margin: 0;
+    padding: 5pt;
+    overflow: auto;
+    background-color: #e5decf;
+}
+
+header {
+    text-align: center;
+    font-size: 64pt;
+}
