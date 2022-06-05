@@ -1,0 +1,24 @@
+- locator: KN09ql53
+  contacts:
+  - callsign: ON3YNL
+    datetime: 2022-06-04T19:17:00Z
+    frequency: 14.255
+    mode: SSB
+    report:
+      rx: 57
+      tx: 55
+    name: Yonal
+    QTH: North Belgium
+  - callsign: OH6HWW
+    datetime: 2022-06-04T21:06:00Z
+    frequency: 14.242
+    mode: SSB
+    report:
+      rx: 55
+  - callsign: F/ON6JUN/P
+    datetime: 2022-06-04T21:55:00Z
+    frequency: 14.186
+    mode: SSB
+    report:
+      rx: 59
+      tx: 55
