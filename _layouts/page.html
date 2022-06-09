@@ -2,15 +2,9 @@
 layout: base
 ---
 
-<header>
-  <p>
-    {{ site.title }}
-  </p>
-</header>
-<nav>
-</nav>
+{% include header.html %}
+{% include nav.html %}
 <main>
   {{ content }}
 </main>
-<footer>
-</footer>
+{% include footer.html %}

@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 body {
     width: 600pt;
     margin: 0 auto;
@@ -20,4 +25,13 @@ header, nav, main, footer {
 header {
     text-align: center;
     font-size: 64pt;
+}
+
+footer {
+    text-align: right;
+    font-size: 8pt;
+}
+
+footer li {
+   display: inline-block;
 }
