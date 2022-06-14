@@ -22,3 +22,12 @@
     report:
       rx: 59
       tx: 55
+- locator: KO00aa15
+  contacts:
+  - callsign: E73E
+    datetime: 2022-06-14T20:25:00Z
+    frequency: 14.195
+    mode: SSB
+    report:
+      rx: 54
+      tx: 57
