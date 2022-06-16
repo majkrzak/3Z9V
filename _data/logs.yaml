@@ -5,8 +5,8 @@
     frequency: 14.255
     mode: SSB
     report:
-      rx: 57
-      tx: 55
+      sent: 57
+      rcvd: 55
     name: Yonal
     QTH: North Belgium
   - callsign: OH6HWW
@@ -14,20 +14,35 @@
     frequency: 14.242
     mode: SSB
     report:
-      rx: 55
+      sent: 55
   - callsign: F/ON6JUN/P
     datetime: 2022-06-04T21:55:00Z
     frequency: 14.186
     mode: SSB
     report:
-      rx: 59
-      tx: 55
+      sent: 59
+      rcvd: 55
 - locator: KO00aa15
   contacts:
   - callsign: E73E
-    datetime: 2022-06-14T20:25:00Z
+    datetime: 2022-06-13T20:25:00Z
     frequency: 14.195
     mode: SSB
     report:
-      rx: 54
-      tx: 57
+      sent: 54
+      rcvd: 57
+  - callsign: EA1EI
+    datetime: 2022-06-15T11:25:00Z
+    frequency: 21.074541
+    mode: FT8
+    report:
+      sent: -03
+      rcvd: -21
+    gridsquare: IN71
+  - callsign: R350AO
+    datetime: 2022-06-16T16:43:00Z
+    frequency: 14.206
+    mode: SSB
+    report:
+      sent: 57
+      rcvd: 59
