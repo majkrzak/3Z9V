@@ -46,3 +46,15 @@
     report:
       sent: 57
       rcvd: 59
+- locator: KO00aa15
+  contacts: []
+- locator: KO00aa15
+  contacts:
+  - callsign: DD1HV
+    datetime: 2022-06-22T19:14:00Z
+    frequency: 14.207
+    mode: SSB
+    report:
+      sent: 55
+      received: 59
+    name: Viktor
