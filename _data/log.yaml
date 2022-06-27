@@ -1,0 +1,432 @@
+# First activation on camping site in Radocyna
+- datetime: 2022-06-04T19:17:00Z
+  stations:
+    logging: &2022-06-04
+      callsign: 3Z9V
+      location:
+        gridsquare: KN09ql53
+        description: Camping site in Długie
+      antenna:
+        kind: Delta
+        orientation: Horizontal
+        length: 20
+        elevation: 3
+      power: 9
+    contacted:
+      callsign: ON3YNL
+      operator:
+        name: Yonal
+      location:
+        description: Nort Belgium
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.255
+  report:
+    sent: 57
+    rcvd: 55
+- datetime: 2022-06-04T21:06:00Z
+  stations:
+    logging: *2022-06-04
+    contacted:
+      callsign: OH6HWW
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.242
+  report:
+    sent: 55
+- datetime: 2022-06-04T21:55:00Z
+  stations:
+    logging: *2022-06-04
+    contacted:
+      callsign: F/ON6JUN/P
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.186
+  report:
+    sent: 59
+    rcvd: 55
+# Home balcony experiments
+- datetime: 2022-06-13T20:25:00Z
+  stations:
+    logging:
+      callsign: 3Z9V
+      location:
+        gridsquare: KO00aa15
+      antenna:
+        kind: Wire
+        orientation: Horizontal
+        length: 10
+        azimuth: 194
+        elevation: 5
+      power: 5
+    contacted:
+      callsign: E73E
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.195
+  report:
+    sent: 54
+    rcvd: 57
+- datetime: 2022-06-15T11:25:00Z
+  stations:
+    logging:
+      callsign: 3Z9V
+      location:
+        gridsquare: KO00aa15
+      antenna:
+        kind: Delta
+        orientation: Horizontal
+        length: 10
+        azimuth: 194
+        elevation: 5
+      power: 5
+    contacted:
+      callsign: EA1EI
+      location:
+        gridsquare: IN71
+  connection:
+    band: 15m
+    mode: FT8
+    frequency: 21.074541
+  report:
+    sent: '-03'
+    rcvd: '-21'
+- datetime: 2022-06-16T16:43:00Z
+  stations:
+    logging:
+      callsign: 3Z9V
+      location:
+        gridsquare: KO00aa15
+      antenna:
+        kind: FoldedDipole
+        orientation: Horizontal
+        length: 10
+        azimuth: 194
+        elevation: 5
+      power: 5
+    contacted:
+      callsign: R350AO
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.206
+  report:
+    sent: 57
+    rcvd: 59
+# Home balcony operation
+- datetime: 2022-06-21T13:55:15Z
+  stations:
+    contacted:
+      callsign: IZ8EYN
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075414
+  report:
+    sent: '+03'
+    rcvd: '-10'
+- datetime: 2022-06-21T14:24:15Z
+  stations:
+    contacted:
+      callsign: YO7ARZ
+      location:
+        gridsquare: KN14
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075671
+  report:
+    sent: '-14'
+    rcvd: '-11'
+- datetime: 2022-06-21T14:42:15Z
+  stations:
+    contacted:
+      callsign: SZ4TRI
+      location:
+        gridsquare: KM09
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076221
+  report:
+    sent: '+04'
+    rcvd: '+04'
+- datetime: 2022-06-21T15:02:30Z
+  stations:
+    contacted:
+      callsign: DH2NJS
+      location:
+        gridsquare: JO50
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075973
+  report:
+    sent: '-01'
+    rcvd: '-09'
+- datetime: 2022-06-21T15:04:45Z
+  stations:
+    contacted:
+      callsign: IN3XUG
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075973
+  report:
+    sent: '+14'
+    rcvd: '-15'
+- datetime: 2022-06-21T15:15:15Z
+  stations:
+    contacted:
+      callsign: IK4LZH
+      location:
+        gridsquare: JN54
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.074343
+  report:
+    sent: '+10'
+    rcvd: '-02'
+- datetime: 2022-06-21T17:35:15Z
+  stations:
+    contacted:
+      callsign: S57DD
+      location:
+        gridsquare: JN76
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076084
+  report:
+    sent: '+00'
+    rcvd: '-06'
+- datetime: 2022-06-21T17:36:00Z
+  stations:
+    contacted:
+      callsign: DK5FN
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076084
+  report:
+    sent: '+06'
+    rcvd: '-06'
+- datetime: 2022-06-21T17:39:15Z
+  stations:
+    contacted:
+      callsign: OE6AKE
+      location:
+        gridsquare: JN76
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076193
+  report:
+    sent: '+03'
+    rcvd: '-09'
+- datetime: 2022-06-21T17:40:00Z
+  stations:
+    contacted:
+      callsign: SV9CAF
+      location:
+        gridsquare: KM25
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076193
+  report:
+    sent: '-01'
+    rcvd: '-19'
+- datetime: 2022-06-21T17:40:45Z
+  stations:
+    contacted:
+      callsign: OE6AKE
+      location:
+        gridsquare: JN76
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076193
+  report:
+    sent: '+01'
+    rcvd: '-13'
+- datetime: 2022-06-21T19:26:30Z
+  stations:
+    contacted:
+      callsign: SP9RA
+      location:
+        gridsquare: KO00
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075271
+  report:
+    sent: '+02'
+    rcvd: '-14'
+- datetime: 2022-06-21T19:36:15Z
+  stations:
+    contacted:
+      callsign: PD0WAG
+      location:
+        gridsquare: JO21
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075925
+  report:
+    sent: '-05'
+    rcvd: '-16'
+- datetime: 2022-06-21T19:41:00Z
+  stations:
+    contacted:
+      callsign: S56UVB
+      location:
+        gridsquare: JN76
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075925
+  report:
+    sent: '+13'
+    rcvd: '-02'
+- datetime: 2022-06-21T19:42:45Z
+  stations:
+    contacted:
+      callsign: LZ1LZ
+      location:
+        gridsquare: KN12
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07596
+  report:
+    sent: '+03'
+    rcvd: '-23'
+- datetime: 2022-06-21T21:25:15Z
+  stations:
+    contacted:
+      callsign: EC3A
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075752
+  report:
+    sent: '-05'
+    rcvd: '-12'
+- datetime: 2022-06-22T19:14:00Z
+  stations:
+    contacted:
+      callsign: DD1HV
+      operator:
+        name: Viktor
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.207
+  report:
+    sent: 55
+    rcvd: 59
+- datetime: 2022-06-24T21:20:00Z
+  stations:
+    contacted:
+      callsign: EC3A
+      location:
+        gridsquare: JN00
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076075
+  report:
+    sent: '-06'
+    rcvd: '-18'
+- datetime: 2022-06-24T21:39:00Z
+  stations:
+    contacted:
+      callsign: MQ0EPC
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075781
+  report:
+    sent: '+07'
+    rcvd: '-24'
+- datetime: 2022-06-25T11:00:00Z
+  stations:
+    contacted:
+      callsign: D1CQ
+      location:
+        gridsquare: KN87
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076153
+  report:
+    sent: '-05'
+    rcvd: '-19'
+- datetime: 2022-06-25T17:02:30Z
+  stations:
+    contacted:
+      callsign: GJ0KYZ/QRP
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07628
+  report:
+    sent: '+00'
+    rcvd: '+05'
+- datetime: 2022-06-25T17:08:45Z
+  stations:
+    contacted:
+      callsign: OY1DZ
+      location:
+        gridsquare: IP62
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076362
+  report:
+    sent: '-02'
+    rcvd: '-07'
+- datetime: 2022-06-27T13:48:30Z
+  stations:
+    contacted:
+      callsign: SA6ZON
+      location:
+        gridsquare: JO66
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.074897
+  report:
+    sent: '+03'
+    rcvd: '-04'
+- datetime: 2022-06-27T13:50:45Z
+  stations:
+    contacted:
+      callsign: DQ5R
+      location:
+        gridsquare: JO44
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07441
+  report:
+    sent: '+03'
+    rcvd: '-13'
