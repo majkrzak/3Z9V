@@ -430,3 +430,16 @@
   report:
     sent: '+03'
     rcvd: '-13'
+- datetime: 2022-06-27T17:56:00Z
+  stations:
+    contacted:
+      callsign: YO4NF
+      location:
+        gridsquare: ''
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075772
+  report:
+    sent: '+08'
+    rcvd: '-14'
