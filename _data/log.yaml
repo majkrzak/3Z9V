@@ -443,3 +443,18 @@
   report:
     sent: '+08'
     rcvd: '-14'
+- datetime: 2022-06-29T20:28:00Z
+  stations:
+    contacted:
+      callsign: G6AD
+      operator:
+        name: Ady
+      location:
+        description: 30km from Birmingham
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.172
+  report:
+    sent: 56
+    rcvd: 57
