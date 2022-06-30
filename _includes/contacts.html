@@ -1,0 +1,33 @@
+<table>
+  <tr>
+    <th>
+      UTC Datetime
+    </th>
+    <th>
+      Callsign
+    </th>
+    <th>
+      Band
+    </th>
+    <th>
+      Mode
+    </th>
+    <th>
+      Frequency
+    </th>
+    <th>
+      Report
+    </th>
+  </tr>
+  {% assign records = site.data.log | reverse %}
+  {% for record in records limit:include.limit %}
+  <tr>
+    <td>{{ record.datetime | date: "%Y-%m-%d %H:%M"}}</td>
+    <td>{{ record.stations.contacted.callsign }}</td>
+    <td>{{ record.connection.band }}</td>
+    <td>{{ record.connection.mode }}</td>
+    <td>{{ record.connection.frequency }}</td>
+    <td>{{ record.report.sent }}/{{ record.report.rcvd }}</td>
+  </tr>
+  {% endfor %}
+</table>
