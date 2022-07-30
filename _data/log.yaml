@@ -23,8 +23,8 @@
     mode: SSB
     frequency: 14.255
   report:
-    sent: 57
-    rcvd: 55
+    sent: '57'
+    rcvd: '55'
 - datetime: 2022-06-04T21:06:00Z
   stations:
     logging: *2022-06-04
@@ -35,7 +35,7 @@
     mode: SSB
     frequency: 14.242
   report:
-    sent: 55
+    sent: '55'
 - datetime: 2022-06-04T21:55:00Z
   stations:
     logging: *2022-06-04
@@ -46,8 +46,8 @@
     mode: SSB
     frequency: 14.186
   report:
-    sent: 59
-    rcvd: 55
+    sent: '59'
+    rcvd: '55'
 # Home balcony experiments
 - datetime: 2022-06-13T20:25:00Z
   stations:
@@ -69,8 +69,8 @@
     mode: SSB
     frequency: 14.195
   report:
-    sent: 54
-    rcvd: 57
+    sent: '54'
+    rcvd: '57'
 - datetime: 2022-06-15T11:25:00Z
   stations:
     logging:
@@ -115,8 +115,8 @@
     mode: SSB
     frequency: 14.206
   report:
-    sent: 57
-    rcvd: 59
+    sent: '57'
+    rcvd: '59'
 # Home balcony operation
 - datetime: 2022-06-21T13:55:15Z
   stations:
@@ -337,8 +337,8 @@
     mode: SSB
     frequency: 14.207
   report:
-    sent: 55
-    rcvd: 59
+    sent: '55'
+    rcvd: '59'
 - datetime: 2022-06-24T21:20:00Z
   stations:
     contacted:
@@ -456,5 +456,74 @@
     mode: SSB
     frequency: 14.172
   report:
-    sent: 56
-    rcvd: 57
+    sent: '56'
+    rcvd: '57'
+# Maszkowice field operation
+- datetime: 2022-07-27T12:30:00Z
+  stations:
+    logging: &2022-07-27
+      callsign: 3Z9V
+      location:
+        gridsquare: KN09fn61
+        description: Field in Maszkowice
+      antenna:
+        kind: Delta
+        orientation: Horizontal
+        length: 20
+        elevation: 2
+      power: 10
+    contacted:
+      callsign: EW1MM
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.178
+  report:
+    sent: '54'
+    rcvd: '57'
+- datetime: 2022-07-27T13:00:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: SA6KOD/7
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.220
+  report:
+    sent: '34'
+    rcvd: '56'
+# Jamnica operation
+- datetime: 2022-07-29T20:18:00Z
+  stations:
+    logging: &2022-07-29
+      callsign: 3Z9V
+      location:
+        gridsquare: KN09in99
+      antenna:
+        kind: Wire
+        orientation: Horizontal
+        length: 47
+        elevation: 5
+      power: 10
+    contacted:
+      callsign: SP3DML
+      operator:
+        name: Michał
+    connection:
+      band: 80m
+      mode: SSB
+      frequency: 3.752
+    report:
+      sent: '57'
+      rcvd: '56'
+- datetime: 2022-07-29T21:40:00Z
+  stations:
+    logging: *2022-07-29
+    contacted:
+      callsign: HB9UQX
+      power: 1000
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.0835
