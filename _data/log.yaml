@@ -530,11 +530,12 @@
 # Home balcony operation
 - datetime: 2022-07-30T16:55:00Z
   stations:
-    contacted: UR5UBD
-    operator:
-      name: Volodja
-    location:
-      description: Kiev
+    contacted:
+      callsign: UR5UBD
+      operator:
+        name: Volodja
+      location:
+        description: Kiev
   connection:
     band: 17m
     mode: SSB
