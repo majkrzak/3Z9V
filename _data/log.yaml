@@ -510,13 +510,13 @@
       callsign: SP3DML
       operator:
         name: Michał
-    connection:
-      band: 80m
-      mode: SSB
-      frequency: 3.752
-    report:
-      sent: '57'
-      rcvd: '56'
+  connection:
+    band: 80m
+    mode: SSB
+    frequency: 3.752
+  report:
+    sent: '57'
+    rcvd: '56'
 - datetime: 2022-07-29T21:40:00Z
   stations:
     logging: *2022-07-29
