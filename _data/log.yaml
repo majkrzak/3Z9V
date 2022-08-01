@@ -543,3 +543,94 @@
   report:
     sent: '54'
     rcvd: '55'
+- datetime: 2022-07-31T17:06:00Z
+  stations:
+    contacted:
+      callsign: TA4Q
+      location:
+        gridsquare: KM56
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.315258
+  report:
+    sent: '+11'
+    rcvd: '-10'
+- datetime: 2022-07-31T17:13:00Z
+  stations:
+    contacted:
+      callsign: HZ1SK
+      location:
+        gridsquare: KL91
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.31496
+  report:
+    sent: '-06'
+    rcvd: '-14'
+- datetime: 2022-07-31T17:15:45Z
+  stations:
+    contacted:
+      callsign: F5IAE
+      location:
+        gridsquare: JN03
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.314471
+  report:
+    sent: '+03'
+    rcvd: '-17'
+- datetime: 2022-07-31T17:39:30Z
+  stations:
+    contacted:
+      callsign: EA6ZS
+      location:
+        gridsquare: JM19
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.314831
+  report:
+    sent: '-09'
+    rcvd: '-09'
+- datetime: 2022-07-31T17:42:15Z
+  stations:
+    contacted:
+      callsign: EB3JT
+      location:
+        gridsquare: JN01
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.315077
+  report:
+    sent: '+10'
+    rcvd: '-10'
+- datetime: 2022-07-31T17:48:30Z
+  stations:
+    contacted:
+      callsign: SP9DTI
+      location:
+        gridsquare: ''
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.314254
+  report:
+    sent: '+18'
+    rcvd: '+05'
+- datetime: 2022-07-31T19:35:15Z
+  stations:
+    contacted:
+      callsign: EI4DQ
+      location:
+        gridsquare: IO51
+  connection:
+    band: 6m
+    mode: FT8
+    frequency: 50.315189
+  report:
+    sent: '-08'
+    rcvd: '-12'
