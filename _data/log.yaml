@@ -634,3 +634,35 @@
   report:
     sent: '-08'
     rcvd: '-12'
+# Jamnica operation
+- datetime: 2022-08-28T14:40:00Z
+  stations:
+    logging: *2022-07-29
+    contacted:
+      callsign: TM17FFF
+      operator:
+        name: Patric
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.255
+  report:
+    sent: '54'
+    rcvd: '56'
+- datetime: 2022-08-28T14:50:00Z
+  stations:
+    logging: *2022-07-29
+    contacted:
+      callsign: IZ3WUW/P
+      operator:
+        name: Enrico
+      location:
+        gridsquare: JN65bo
+        description: Venice
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.250
+  report:
+    sent: '58'
+    rcvd: '57'
