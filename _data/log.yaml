@@ -666,3 +666,69 @@
   report:
     sent: '58'
     rcvd: '57'
+# Home balcony operation
+- datetime: 2022-09-07T17:02:45Z
+  stations:
+    contacted:
+      callsign: F4JGI
+      location:
+        gridsquare: IN94
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075562
+  report:
+    sent: '-11'
+    rcvd: '-14'
+- datetime: 2022-09-07T17:05:15Z
+  stations:
+    contacted:
+      callsign: F4ACR
+      location:
+        gridsquare: IN96
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075562
+  report:
+    sent: '+08'
+    rcvd: '-13'
+- datetime: 2022-09-07T17:07:45Z
+  stations:
+    contacted:
+      callsign: EA3HBG
+      location:
+        gridsquare: JN01
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075562
+  report:
+    sent: '-06'
+    rcvd: '-13'
+- datetime: 2022-09-07T17:10:15Z
+  stations:
+    contacted:
+      callsign: IT9ZAQ
+      location:
+        gridsquare: JM67
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075562
+  report:
+    sent: '-08'
+    rcvd: '-16'
+- datetime: 2022-09-07T17:16:30Z
+  stations:
+    contacted:
+      callsign: MI0OUT
+      location:
+        gridsquare: IO65
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075901
+  report:
+    sent: '-15'
+    rcvd: '-24'
