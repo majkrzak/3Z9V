@@ -732,3 +732,42 @@
   report:
     sent: '-15'
     rcvd: '-24'
+- datetime: 2022-09-08T12:12:45Z
+  stations:
+    contacted:
+      callsign: ZS4JAN
+      location:
+        gridsquare: KG30
+  connection:
+    band: 12m
+    mode: FT8
+    frequency: 24.917076
+  report:
+    sent: '-11'
+    rcvd: '-14'
+- datetime: 2022-09-08T15:42:00Z
+  stations:
+    contacted:
+      callsign: SV5RLH
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.250
+  report:
+    sent: '54'
+    rcvd: '55'
+- datetime: 2022-09-08T16:30:00Z
+  stations:
+    contacted:
+      callsign: MW0RLJ
+      operator:
+        name: Rob
+      location:
+        description: Wales
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.285
+  report:
+    sent: '54'
+    rcvd: '57'
