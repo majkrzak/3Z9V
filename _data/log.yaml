@@ -771,3 +771,42 @@
   report:
     sent: '54'
     rcvd: '57'
+- datetime: 2022-09-09T13:41:45Z
+  stations:
+    contacted:
+      callsign: 4X5MZ
+      location:
+        gridsquare: KM71
+  connection:
+    band: 12m
+    mode: FT8
+    frequency: 24.91542
+  report:
+    sent: '-01'
+    rcvd: '-16'
+- datetime: 2022-09-09T14:02:15Z
+  stations:
+    contacted:
+      callsign: CT3MD
+      location:
+        gridsquare: IM13
+  connection:
+    band: 12m
+    mode: FT8
+    frequency: 24.915468
+  report:
+    sent: '+05'
+    rcvd: '-16'
+- datetime: 2022-09-09T17:50:00Z
+  stations:
+    contacted:
+      callsign: EB3GGB
+      operator:
+        name: Kim
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.185
+  report:
+    sent: '42'
+    rcvd: 'noise'
