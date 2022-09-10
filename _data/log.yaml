@@ -810,3 +810,15 @@
   report:
     sent: '42'
     rcvd: 'noise'
+- datetime: 2022-09-10T16:20:00Z
+  stations:
+    contacted:
+      callsign: SP9NIL
+  connection:
+    band: 2m
+    mode: FM
+    frequency: 145.500
+  report:
+    sent: '56 01KO00AA'
+    rcvd: '59 01KO00AA'
+
