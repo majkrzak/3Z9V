@@ -821,4 +821,35 @@
   report:
     sent: '56 01KO00AA'
     rcvd: '59 01KO00AA'
-
+- datetime: 2022-09-11T11:50:00Z
+  stations:
+    contacted:
+      callsign: IP1X
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.027
+- datetime: 2022-09-11T12:10:00Z
+  stations:
+    contacted:
+      callsign: I1ULJ/8
+      location:
+        description: Catanz
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.02494
+  report:
+    sent: '569'
+    rcvd: '559'
+- datetime: 2022-09-11T16:52:00Z
+  stations:
+    contacted:
+      callsign: EA6NB
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.02601
+  report:
+    sent: '569'
+    rcvd: '529'
