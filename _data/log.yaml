@@ -926,3 +926,19 @@
   report:
     sent: '-04'
     rcvd: '-17'
+- datetime: 2022-09-12T16:07:00Z
+  stations:
+    contacted:
+      callsign: HA8SSG
+      operator:
+        name: Attila
+      location:
+        description:
+          Kunfehértó
+  connection:
+    band: 40m
+    mode: CW
+    frequency: 7.03257
+  report:
+    sent: '539'
+    rcvd: '439'
