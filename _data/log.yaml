@@ -430,6 +430,32 @@
   report:
     sent: '+03'
     rcvd: '-13'
+- datetime: 2022-06-27T16:47:45Z
+  stations:
+    contacted:
+      callsign: RA3ABG
+      location:
+        gridsquare: KO85
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076004
+  report:
+    sent: '-04'
+    rcvd: '-20'
+- datetime: 2022-06-27T16:51:45Z
+  stations:
+    contacted:
+      callsign: PD7RF
+      location:
+        gridsquare: JO22
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.074451
+  report:
+    sent: '+03'
+    rcvd: '-16'
 - datetime: 2022-06-27T17:56:00Z
   stations:
     contacted:
