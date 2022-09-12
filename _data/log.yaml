@@ -853,3 +853,16 @@
   report:
     sent: '569'
     rcvd: '529'
+- datetime: 2022-09-11T20:51:15Z
+  stations:
+    contacted:
+      callsign: E75C
+      location:
+        gridsquare: JN93
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076351
+  report:
+    sent: '-05'
+    rcvd: '-14'
