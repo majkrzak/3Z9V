@@ -866,3 +866,11 @@
   report:
     sent: '-05'
     rcvd: '-14'
+- datetime: 2022-09-12T13:22:00Z
+  stations:
+    contacted:
+      callsign: UE85L
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.04099
