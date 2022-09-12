@@ -900,3 +900,29 @@
     band: 20m
     mode: CW
     frequency: 14.04099
+- datetime: 2022-09-12T14:55:00Z
+  stations:
+    contacted:
+      callsign: ZB2IF
+      location:
+        gridsquare: IM76
+  connection:
+    band: 15m
+    mode: FT8
+    frequency: 21.075641
+  report:
+    sent: '-03'
+    rcvd: '-16'
+- datetime: 2022-09-12T15:04:00Z
+  stations:
+    contacted:
+      callsign: EA9TF
+      location:
+        gridsquare: IM75
+  connection:
+    band: 15m
+    mode: FT8
+    frequency: 21.076085
+  report:
+    sent: '-04'
+    rcvd: '-17'
