@@ -1085,3 +1085,237 @@
   report:
     sent: '-06'
     rcvd: '-16'
+- datetime: 2022-09-13T10:32:15Z
+  stations:
+    contacted:
+      callsign: IU7BPL
+      location:
+        gridsquare: JN81
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137944
+  report:
+    sent: '-14'
+    rcvd: '-12'
+- datetime: 2022-09-13T10:42:30Z
+  stations:
+    contacted:
+      callsign: DK7ZT
+      location:
+        gridsquare: JO40
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137302
+  report:
+    sent: '+12'
+    rcvd: '-07'
+- datetime: 2022-09-13T10:45:45Z
+  stations:
+    contacted:
+      callsign: EI2IP
+      location:
+        gridsquare: ''
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137302
+  report:
+    sent: '-19'
+    rcvd: '-24'
+- datetime: 2022-09-13T13:02:15Z
+  stations:
+    contacted:
+      callsign: PA3KUS
+      location:
+        gridsquare: JO21
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.13754
+  report:
+    sent: '-16'
+    rcvd: '-21'
+- datetime: 2022-09-13T13:45:45Z
+  stations:
+    contacted:
+      callsign: ON5AZ
+      location:
+        gridsquare: JO21
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137099
+  report:
+    sent: '-01'
+    rcvd: '-17'
+- datetime: 2022-09-13T14:54:30Z
+  stations:
+    contacted:
+      callsign: DG5NET
+      location:
+        gridsquare: JN59
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.13727
+  report:
+    sent: '+03'
+    rcvd: '-02'
+- datetime: 2022-09-13T15:00:00Z
+  stations:
+    contacted:
+      callsign: ON7JA
+      location:
+        gridsquare: JO11
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.13727
+  report:
+    sent: '+02'
+    rcvd: '-07'
+- datetime: 2022-09-13T15:12:30Z
+  stations:
+    contacted:
+      callsign: IW2ETR
+      location:
+        gridsquare: JN46
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.136885
+  report:
+    sent: '-16'
+    rcvd: '-15'
+- datetime: 2022-09-13T15:18:15Z
+  stations:
+    contacted:
+      callsign: SM2MGQ
+      location:
+        gridsquare: JP85
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.138
+  report:
+    sent: '-07'
+    rcvd: '-08'
+- datetime: 2022-09-13T15:36:00Z
+  stations:
+    contacted:
+      callsign: S51TA
+      location:
+        gridsquare: JN75
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137291
+  report:
+    sent: '+04'
+    rcvd: '-11'
+- datetime: 2022-09-13T15:40:15Z
+  stations:
+    contacted:
+      callsign: PA3CPS
+      location:
+        gridsquare: JO32
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137291
+  report:
+    sent: '+12'
+    rcvd: '-05'
+- datetime: 2022-09-13T15:43:15Z
+  stations:
+    contacted:
+      callsign: IU3KTA
+      location:
+        gridsquare: JN65
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137291
+  report:
+    sent: '-04'
+    rcvd: '-13'
+- datetime: 2022-09-13T16:00:30Z
+  stations:
+    contacted:
+      callsign: OZ7FOC
+      location:
+        gridsquare: JO55
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137601
+  report:
+    sent: '-02'
+    rcvd: '-06'
+- datetime: 2022-09-13T16:47:15Z
+  stations:
+    contacted:
+      callsign: F5NZN
+      location:
+        gridsquare: JN08
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137196
+  report:
+    sent: '-23'
+    rcvd: '-11'
+- datetime: 2022-09-13T16:49:30Z
+  stations:
+    contacted:
+      callsign: F4BIV
+      location:
+        gridsquare: JN25
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.137452
+  report:
+    sent: '-12'
+    rcvd: '-12'
+- datetime: 2022-09-13T16:57:45Z
+  stations:
+    contacted:
+      callsign: HB9EFK
+      location:
+        gridsquare: JN47
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.136248
+  report:
+    sent: '+18'
+    rcvd: '-04'
+- datetime: 2022-09-13T17:01:15Z
+  stations:
+    contacted:
+      callsign: MM7WAB
+      location:
+        gridsquare: IO75
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.1375
+  report:
+    sent: '-20'
+    rcvd: '-17'
+- datetime: 2022-09-13T17:35:45Z
+  stations:
+    contacted:
+      callsign: IK6FBB
+      location:
+        gridsquare: JN62
+  connection:
+    band: 30m
+    mode: FT8
+    frequency: 10.136784
+  report:
+    sent: '-05'
+    rcvd: '-14'
