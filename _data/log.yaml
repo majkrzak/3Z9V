@@ -123,7 +123,7 @@
     contacted:
       callsign: IZ8EYN
       location:
-        gridsquare: ''
+        gridsquare: JM89
   connection:
     band: 20m
     mode: FT8
@@ -175,7 +175,7 @@
     contacted:
       callsign: IN3XUG
       location:
-        gridsquare: ''
+        gridsquare: JN56
   connection:
     band: 20m
     mode: FT8
@@ -214,7 +214,7 @@
     contacted:
       callsign: DK5FN
       location:
-        gridsquare: ''
+        gridsquare: JO41
   connection:
     band: 20m
     mode: FT8
@@ -318,7 +318,7 @@
     contacted:
       callsign: EC3A
       location:
-        gridsquare: ''
+        gridsquare: JN00
   connection:
     band: 20m
     mode: FT8
@@ -357,7 +357,7 @@
     contacted:
       callsign: MQ0EPC
       location:
-        gridsquare: ''
+        gridsquare: IO75
   connection:
     band: 20m
     mode: FT8
@@ -383,7 +383,7 @@
     contacted:
       callsign: GJ0KYZ/QRP
       location:
-        gridsquare: ''
+        gridsquare: IN89
   connection:
     band: 20m
     mode: FT8
@@ -461,7 +461,7 @@
     contacted:
       callsign: YO4NF
       location:
-        gridsquare: ''
+        gridsquare: KN44
   connection:
     band: 20m
     mode: FT8
@@ -639,7 +639,7 @@
     contacted:
       callsign: SP9DTI
       location:
-        gridsquare: ''
+        gridsquare: KO00
   connection:
     band: 6m
     mode: FT8
