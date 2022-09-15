@@ -1462,3 +1462,27 @@
   report:
     sent: '-06'
     rcvd: '-21'
+- datetime: 2022-09-15T15:23:00Z
+  stations:
+    contacted:
+      callsign: IT9FIQ
+      location:
+        description: Messina
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.185
+  report:
+    sent: '56'
+    rcvd: '56'
+- datetime: 2022-09-15T15:39:00Z
+  stations:
+    contacted:
+      callsign: OH6UBC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.267
+  report:
+    sent: '55'
+    rcvd: '55'
