@@ -1655,3 +1655,55 @@
   report:
     sent: '-17'
     rcvd: '-09'
+- datetime: 2022-10-12T14:38:00Z
+  stations:
+    contacted:
+      callsign: PH4E
+      operator:
+        name: Eline
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.268
+  report:
+    sent: '54'
+    rcvd: '45'
+- datetime: 2022-10-12T16:51:15Z
+  stations:
+    contacted:
+      callsign: R4DI
+      location:
+        gridsquare: LO42
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076115
+  report:
+    sent: '+14'
+    rcvd: '-17'
+- datetime: 2022-10-12T17:06:15Z
+  stations:
+    contacted:
+      callsign: G4BEH
+      location:
+        gridsquare: IO92
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07565
+  report:
+    sent: '-02'
+    rcvd: '-18'
+- datetime: 2022-10-12T17:25:00Z
+  stations:
+    contacted:
+      callsign: 5B4AMM
+      location:
+        gridsquare: KM65
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.0763
+  report:
+    sent: '+22'
+    rcvd: '-06'
