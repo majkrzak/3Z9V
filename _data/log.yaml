@@ -1707,3 +1707,86 @@
   report:
     sent: '+22'
     rcvd: '-06'
+# Jamnica operation
+- datetime: 2022-12-25T08:25:00Z
+  stations:
+    logging: &2022-12-25
+      callsign: 3Z9V
+      location:
+        gridsquare: KN09in99
+      antenna:
+        kind: Delta
+        orientation: Horizontal
+        length: 44
+        elevation: 5
+      power: 10
+    contacted:
+      callsign: IK1BXK
+      location:
+        description: North West Italy
+      operator:
+        name: Luigi
+      power: 500
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.190
+  report:
+    sent: '57'
+    rcvd: 'S+7'
+- datetime: 2022-12-25T08:54:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IZ7DOK
+      operator:
+        name: Marco
+      power: 200
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.205
+  report:
+    sent: '54'
+    rcvd: '11'
+- datetime: 2022-12-25T11:49:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: PD1ABO
+      operator:
+        name: Henk
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.243
+  report:
+    sent: '57'
+    rcvd: '55'
+- # https://youtu.be/WdG1xPiEq8E?t=1654
+  datetime: 2022-12-25T12:34:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: PD9PWR
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.225
+  report:
+    sent: '57'
+    rcvd: '56'
+- datetime: 2022-12-25T13:25:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DJ3DN
+      operator:
+        name: Miku
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.2985
+  report:
+    sent: '57'
+    rcvd: '59'
