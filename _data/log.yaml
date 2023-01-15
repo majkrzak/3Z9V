@@ -17,7 +17,7 @@
       operator:
         name: Yonal
       location:
-        description: Nort Belgium
+        description: North Belgium
   connection:
     band: 20m
     mode: SSB
@@ -1790,3 +1790,306 @@
   report:
     sent: '57'
     rcvd: '59'
+- datetime: 2023-01-11T20:54:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II0WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.206
+  report:
+    sent: '56'
+    rcvd: '59'
+- datetime: 2023-01-12T07:57:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9LOM/P
+      operator:
+        name: Waldek
+      location:
+        program:
+          wwff: SPFF-2362
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.144
+  report:
+    sent: '57'
+    rcvd: '59'
+- datetime: 2023-01-12T10:30:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II6WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.261
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-12T10:57:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II2WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.255
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-12T11:31:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II1WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.185
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-12T12:50:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: 2E0HCS
+      operator:
+        name: Chris
+      location:
+        description:
+          North West coast of England
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.290
+  report:
+    sent: '54'
+    rcvd: '55'
+- datetime: 2023-01-12T13:33:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: G0CMQ/M
+      operator:
+        name: Matt
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.265
+  report:
+    sent: '54'
+    rcvd: '44'
+- datetime: 2023-01-12T19:45:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F4CQS
+      operator:
+        name: Phil
+      power: 800
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.127
+  report:
+    sent: '56'
+    rcvd: '??'
+- datetime: 2023-01-13T08:51:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DL/HB9BQU/P
+      location:
+        program:
+          sota: DM/RP-187
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.288
+  report:
+    sent: '58'
+    rcvd: '53'
+- datetime: 2023-01-13T11:43:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: LA9XGA
+      location:
+        program:
+          sota: LA/RL-142
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.337
+  report:
+    sent: '56'
+    rcvd: '54'
+- datetime: 2023-01-13T11:55:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9JTR/P
+      location:
+        program:
+          sota: SP/BZ-084
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.292
+  report:
+    sent: '57'
+    rcvd: '56'
+- datetime: 2023-01-13T12:59:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: ON/PD0SOT
+      location:
+        program:
+          sota: ON/ON-001
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.235
+  report:
+    sent: '56'
+    rcvd: '56'
+- datetime: 2023-01-13T13:17:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: ON/PD0HI
+      location:
+        program:
+          sota: ON/ON-001
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.235
+  report:
+    sent: '56'
+    rcvd: '53'
+- datetime: 2023-01-13T13:44:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: LA9PJA/P
+      location:
+        program:
+          sota: LA/OL-312
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-14T08:28:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: E70Y
+      operator:
+        name: Marin
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.207
+  report:
+    sent: '57'
+    rcvd: '58'
+- datetime: 2023-01-14T08:38:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II7WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.238
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-14T08:47:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SO15TA/P
+      location:
+        program:
+          sota: SP/BZ-024
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.280
+  report:
+    sent: '52'
+    rcvd: '55'
+- datetime: 2023-01-14T09:20:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV2RUJ/P
+      location:
+        program:
+          sota: SV/TL-091
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.336
+  report:
+    sent: '58'
+    rcvd: '55'
+- datetime: 2023-01-14T09:25:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: R7TG
+      operator:
+        name: Aleq
+      location:
+        description: South Russia
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.204
+  report:
+    sent: '57'
+    rcvd: '59'
+- datetime: 2023-01-14T13:10:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: HB9HBU/P
+      location:
+        program:
+          sota: HB/AG-012
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.320
+  report:
+    sent: '54'
+    rcvd: '57'
+- datetime: 2023-01-14T13:12:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: HB9HBV
+      location:
+        program:
+          sota: HB/AG-012
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.320
+  report:
+    sent: '54'
+    rcvd: '57'
