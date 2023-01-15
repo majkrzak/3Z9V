@@ -2082,7 +2082,7 @@
   stations:
     logging: *2022-12-25
     contacted:
-      callsign: HB9HBV
+      callsign: HB9HBV/P
       location:
         program:
           sota: HB/AG-012
