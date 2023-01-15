@@ -2001,8 +2001,8 @@
     mode: SSB
     frequency: 14.280
   report:
-    sent: 53
-    rcvd: 51
+    sent: '53'
+    rcvd: '51'
 - datetime: 2023-01-14T08:28:00Z
   stations:
     logging: *2022-12-25
