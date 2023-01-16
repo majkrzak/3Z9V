@@ -2,8 +2,8 @@
 - datetime: 2022-06-04T19:17:00Z
   stations:
     logging: &2022-06-04
-      callsign: 3Z9V
-      location:
+      callsign: &callsign 3Z9V
+      location: &radocyna
         gridsquare: KN09ql53
         description: Camping site in Długie
       antenna:
@@ -51,9 +51,9 @@
 # Home balcony experiments
 - datetime: 2022-06-13T20:25:00Z
   stations:
-    logging:
-      callsign: 3Z9V
-      location:
+    logging: &2022-06-13
+      callsign: *callsign
+      location: &krakow
         gridsquare: KO00aa15
       antenna:
         kind: Wire
@@ -73,17 +73,14 @@
     rcvd: '57'
 - datetime: 2022-06-15T11:25:00Z
   stations:
-    logging:
-      callsign: 3Z9V
-      location:
-        gridsquare: KO00aa15
+    logging: &2022-06-15
+      <<: *2022-06-13
       antenna:
         kind: Delta
         orientation: Horizontal
         length: 10
         azimuth: 194
         elevation: 5
-      power: 5
     contacted:
       callsign: EA1EI
       location:
@@ -97,17 +94,14 @@
     rcvd: '-21'
 - datetime: 2022-06-16T16:43:00Z
   stations:
-    logging:
-      callsign: 3Z9V
-      location:
-        gridsquare: KO00aa15
+    logging: &2022-06-16
+      <<: *2022-06-15
       antenna:
         kind: FoldedDipole
         orientation: Horizontal
         length: 10
         azimuth: 194
         elevation: 5
-      power: 5
     contacted:
       callsign: R350AO
   connection:
@@ -120,6 +114,15 @@
 # Home balcony operation
 - datetime: 2022-06-21T13:55:15Z
   stations:
+    logging: &2022-06-21
+      <<: *2022-06-16
+      antenna:
+        kind: Dipole
+        orientation: Horizontal
+        length: 10
+        azimuth: 194
+        elevation: 5
+      power: 10
     contacted:
       callsign: IZ8EYN
       location:
@@ -133,6 +136,7 @@
     rcvd: '-10'
 - datetime: 2022-06-21T14:24:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: YO7ARZ
       location:
@@ -146,6 +150,7 @@
     rcvd: '-11'
 - datetime: 2022-06-21T14:42:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SZ4TRI
       location:
@@ -159,6 +164,7 @@
     rcvd: '+04'
 - datetime: 2022-06-21T15:02:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DH2NJS
       location:
@@ -172,6 +178,7 @@
     rcvd: '-09'
 - datetime: 2022-06-21T15:04:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IN3XUG
       location:
@@ -185,6 +192,7 @@
     rcvd: '-15'
 - datetime: 2022-06-21T15:15:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK4LZH
       location:
@@ -198,6 +206,7 @@
     rcvd: '-02'
 - datetime: 2022-06-21T17:35:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: S57DD
       location:
@@ -211,6 +220,7 @@
     rcvd: '-06'
 - datetime: 2022-06-21T17:36:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK5FN
       location:
@@ -224,6 +234,7 @@
     rcvd: '-06'
 - datetime: 2022-06-21T17:39:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OE6AKE
       location:
@@ -237,6 +248,7 @@
     rcvd: '-09'
 - datetime: 2022-06-21T17:40:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SV9CAF
       location:
@@ -250,6 +262,7 @@
     rcvd: '-19'
 - datetime: 2022-06-21T17:40:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OE6AKE
       location:
@@ -263,6 +276,7 @@
     rcvd: '-13'
 - datetime: 2022-06-21T19:26:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SP9RA
       location:
@@ -276,6 +290,7 @@
     rcvd: '-14'
 - datetime: 2022-06-21T19:36:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PD0WAG
       location:
@@ -289,6 +304,7 @@
     rcvd: '-16'
 - datetime: 2022-06-21T19:41:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: S56UVB
       location:
@@ -302,6 +318,7 @@
     rcvd: '-02'
 - datetime: 2022-06-21T19:42:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: LZ1LZ
       location:
@@ -315,6 +332,7 @@
     rcvd: '-23'
 - datetime: 2022-06-21T21:25:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EC3A
       location:
@@ -328,6 +346,7 @@
     rcvd: '-12'
 - datetime: 2022-06-22T19:14:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DD1HV
       operator:
@@ -341,6 +360,7 @@
     rcvd: '59'
 - datetime: 2022-06-24T21:20:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EC3A
       location:
@@ -354,6 +374,7 @@
     rcvd: '-18'
 - datetime: 2022-06-24T21:39:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: MQ0EPC
       location:
@@ -367,6 +388,7 @@
     rcvd: '-24'
 - datetime: 2022-06-25T11:00:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: D1CQ
       location:
@@ -380,6 +402,7 @@
     rcvd: '-19'
 - datetime: 2022-06-25T17:02:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: GJ0KYZ/QRP
       location:
@@ -393,6 +416,7 @@
     rcvd: '+05'
 - datetime: 2022-06-25T17:08:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OY1DZ
       location:
@@ -406,6 +430,7 @@
     rcvd: '-07'
 - datetime: 2022-06-27T13:48:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SA6ZON
       location:
@@ -419,6 +444,7 @@
     rcvd: '-04'
 - datetime: 2022-06-27T13:50:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DQ5R
       location:
@@ -432,6 +458,7 @@
     rcvd: '-13'
 - datetime: 2022-06-27T16:47:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: RA3ABG
       location:
@@ -445,6 +472,7 @@
     rcvd: '-20'
 - datetime: 2022-06-27T16:51:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PD7RF
       location:
@@ -458,6 +486,7 @@
     rcvd: '-16'
 - datetime: 2022-06-27T17:56:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: YO4NF
       location:
@@ -471,6 +500,7 @@
     rcvd: '-14'
 - datetime: 2022-06-29T20:28:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: G6AD
       operator:
@@ -488,8 +518,8 @@
 - datetime: 2022-07-27T12:30:00Z
   stations:
     logging: &2022-07-27
-      callsign: 3Z9V
-      location:
+      callsign: *callsign
+      location: &maszkowice
         gridsquare: KN09fn61
         description: Field in Maszkowice
       antenna:
@@ -523,8 +553,8 @@
 - datetime: 2022-07-29T20:18:00Z
   stations:
     logging: &2022-07-29
-      callsign: 3Z9V
-      location:
+      callsign: *callsign
+      location: &jamnica
         gridsquare: KN09in99
       antenna:
         kind: Wire
@@ -556,6 +586,7 @@
 # Home balcony operation
 - datetime: 2022-07-30T16:55:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: UR5UBD
       operator:
@@ -571,6 +602,7 @@
     rcvd: '55'
 - datetime: 2022-07-31T17:06:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: TA4Q
       location:
@@ -584,6 +616,7 @@
     rcvd: '-10'
 - datetime: 2022-07-31T17:13:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: HZ1SK
       location:
@@ -597,6 +630,7 @@
     rcvd: '-14'
 - datetime: 2022-07-31T17:15:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F5IAE
       location:
@@ -610,6 +644,7 @@
     rcvd: '-17'
 - datetime: 2022-07-31T17:39:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EA6ZS
       location:
@@ -623,6 +658,7 @@
     rcvd: '-09'
 - datetime: 2022-07-31T17:42:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EB3JT
       location:
@@ -636,6 +672,7 @@
     rcvd: '-10'
 - datetime: 2022-07-31T17:48:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SP9DTI
       location:
@@ -649,6 +686,7 @@
     rcvd: '+05'
 - datetime: 2022-07-31T19:35:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EI4DQ
       location:
@@ -695,6 +733,7 @@
 # Home balcony operation
 - datetime: 2022-09-07T17:02:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F4JGI
       location:
@@ -708,6 +747,7 @@
     rcvd: '-14'
 - datetime: 2022-09-07T17:05:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F4ACR
       location:
@@ -721,6 +761,7 @@
     rcvd: '-13'
 - datetime: 2022-09-07T17:07:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EA3HBG
       location:
@@ -734,6 +775,7 @@
     rcvd: '-13'
 - datetime: 2022-09-07T17:10:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IT9ZAQ
       location:
@@ -747,6 +789,7 @@
     rcvd: '-16'
 - datetime: 2022-09-07T17:16:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: MI0OUT
       location:
@@ -760,6 +803,7 @@
     rcvd: '-24'
 - datetime: 2022-09-08T12:12:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: ZS4JAN
       location:
@@ -773,6 +817,7 @@
     rcvd: '-14'
 - datetime: 2022-09-08T15:42:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SV5RLH
   connection:
@@ -784,6 +829,7 @@
     rcvd: '55'
 - datetime: 2022-09-08T16:30:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: MW0RLJ
       operator:
@@ -799,6 +845,7 @@
     rcvd: '57'
 - datetime: 2022-09-09T13:41:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: 4X5MZ
       location:
@@ -812,6 +859,7 @@
     rcvd: '-16'
 - datetime: 2022-09-09T14:02:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: CT3MD
       location:
@@ -825,6 +873,7 @@
     rcvd: '-16'
 - datetime: 2022-09-09T17:50:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EB3GGB
       operator:
@@ -838,6 +887,10 @@
     rcvd: 'noise'
 - datetime: 2022-09-10T16:20:00Z
   stations:
+    logging: &2022-09-10
+      callsign: *callsign
+      location: *krakow
+      power: 7
     contacted:
       callsign: SP9NIL
   connection:
@@ -849,6 +902,7 @@
     rcvd: '59 01KO00AA'
 - datetime: 2022-09-11T11:50:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IP1X
   connection:
@@ -857,6 +911,7 @@
     frequency: 14.027
 - datetime: 2022-09-11T12:10:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: I1ULJ/8
       location:
@@ -870,6 +925,7 @@
     rcvd: '559'
 - datetime: 2022-09-11T16:52:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EA6NB
   connection:
@@ -881,6 +937,7 @@
     rcvd: '529'
 - datetime: 2022-09-11T20:51:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: E75C
       location:
@@ -894,6 +951,7 @@
     rcvd: '-14'
 - datetime: 2022-09-12T13:22:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: UE85L
   connection:
@@ -902,6 +960,7 @@
     frequency: 14.04099
 - datetime: 2022-09-12T14:55:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: ZB2IF
       location:
@@ -915,6 +974,7 @@
     rcvd: '-16'
 - datetime: 2022-09-12T15:04:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EA9TF
       location:
@@ -928,6 +988,7 @@
     rcvd: '-17'
 - datetime: 2022-09-12T16:07:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: HA8SSG
       operator:
@@ -944,6 +1005,7 @@
     rcvd: '439'
 - datetime: 2022-09-13T09:00:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OZ3QRP
       location:
@@ -957,6 +1019,7 @@
     rcvd: '-13'
 - datetime: 2022-09-13T09:05:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK8WQ
       location:
@@ -970,6 +1033,7 @@
     rcvd: '+09'
 - datetime: 2022-09-13T09:18:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DL6BCL
       location:
@@ -983,6 +1047,7 @@
     rcvd: '-22'
 - datetime: 2022-09-13T09:18:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DJ1TU
       location:
@@ -996,6 +1061,7 @@
     rcvd: '-10'
 - datetime: 2022-09-13T09:22:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OZ5AGJ
       location:
@@ -1009,6 +1075,7 @@
     rcvd: '-03'
 - datetime: 2022-09-13T09:25:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK4RH
       location:
@@ -1022,6 +1089,7 @@
     rcvd: '-12'
 - datetime: 2022-09-13T09:26:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: YO3ADK
       location:
@@ -1035,6 +1103,7 @@
     rcvd: '-11'
 - datetime: 2022-09-13T09:28:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PA3KUS
       location:
@@ -1048,6 +1117,7 @@
     rcvd: '-20'
 - datetime: 2022-09-13T09:29:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OZ1BJF
       location:
@@ -1061,6 +1131,7 @@
     rcvd: '-13'
 - datetime: 2022-09-13T09:32:11Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK6ZDC
       location:
@@ -1074,6 +1145,7 @@
     rcvd: '-13'
 - datetime: 2022-09-13T10:27:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: 9A6OY
       location:
@@ -1087,6 +1159,7 @@
     rcvd: '-16'
 - datetime: 2022-09-13T10:32:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IU7BPL
       location:
@@ -1100,6 +1173,7 @@
     rcvd: '-12'
 - datetime: 2022-09-13T10:42:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK7ZT
       location:
@@ -1113,6 +1187,7 @@
     rcvd: '-07'
 - datetime: 2022-09-13T10:45:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: EI2IP
       location:
@@ -1126,6 +1201,7 @@
     rcvd: '-24'
 - datetime: 2022-09-13T13:02:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PA3KUS
       location:
@@ -1139,6 +1215,7 @@
     rcvd: '-21'
 - datetime: 2022-09-13T13:45:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: ON5AZ
       location:
@@ -1152,6 +1229,7 @@
     rcvd: '-17'
 - datetime: 2022-09-13T14:54:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DG5NET
       location:
@@ -1165,6 +1243,7 @@
     rcvd: '-02'
 - datetime: 2022-09-13T15:00:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: ON7JA
       location:
@@ -1178,6 +1257,7 @@
     rcvd: '-07'
 - datetime: 2022-09-13T15:12:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IW2ETR
       location:
@@ -1191,6 +1271,7 @@
     rcvd: '-15'
 - datetime: 2022-09-13T15:18:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SM2MGQ
       location:
@@ -1204,6 +1285,7 @@
     rcvd: '-08'
 - datetime: 2022-09-13T15:36:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: S51TA
       location:
@@ -1217,6 +1299,7 @@
     rcvd: '-11'
 - datetime: 2022-09-13T15:40:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PA3CPS
       location:
@@ -1230,6 +1313,7 @@
     rcvd: '-05'
 - datetime: 2022-09-13T15:43:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IU3KTA
       location:
@@ -1243,6 +1327,7 @@
     rcvd: '-13'
 - datetime: 2022-09-13T16:00:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OZ7FOC
       location:
@@ -1256,6 +1341,7 @@
     rcvd: '-06'
 - datetime: 2022-09-13T16:47:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F5NZN
       location:
@@ -1269,6 +1355,7 @@
     rcvd: '-11'
 - datetime: 2022-09-13T16:49:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F4BIV
       location:
@@ -1282,6 +1369,7 @@
     rcvd: '-12'
 - datetime: 2022-09-13T16:57:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: HB9EFK
       location:
@@ -1295,6 +1383,7 @@
     rcvd: '-04'
 - datetime: 2022-09-13T17:01:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: MM7WAB
       location:
@@ -1308,6 +1397,7 @@
     rcvd: '-17'
 - datetime: 2022-09-13T17:35:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK6FBB
       location:
@@ -1321,6 +1411,7 @@
     rcvd: '-14'
 - datetime: 2022-09-13T19:29:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OH1PH
       location:
@@ -1334,6 +1425,7 @@
     rcvd: '-21'
 - datetime: 2022-09-13T19:32:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: LA1VNA
       location:
@@ -1347,6 +1439,7 @@
     rcvd: '-16'
 - datetime: 2022-09-14T11:00:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OE3FVU
       location:
@@ -1360,6 +1453,7 @@
     rcvd: '-13'
 - datetime: 2022-09-14T11:01:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SP2EWQ
       location:
@@ -1373,6 +1467,7 @@
     rcvd: '-02'
 - datetime: 2022-09-14T11:05:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: YU7AS
       location:
@@ -1386,6 +1481,7 @@
     rcvd: '-12'
 - datetime: 2022-09-14T13:13:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK7ZT
       location:
@@ -1399,6 +1495,7 @@
     rcvd: '-18'
 - datetime: 2022-09-14T13:19:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DL6ZOG
       location:
@@ -1412,6 +1509,7 @@
     rcvd: '-16'
 - datetime: 2022-09-14T13:21:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DM1YS
       location:
@@ -1425,6 +1523,7 @@
     rcvd: '-19'
 - datetime: 2022-09-14T13:27:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OM4TC
       location:
@@ -1438,6 +1537,7 @@
     rcvd: '-18'
 - datetime: 2022-09-14T13:32:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: SP0SIMP
       location:
@@ -1451,6 +1551,7 @@
     rcvd: '-18'
 - datetime: 2022-09-14T15:09:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OM3ZBG
       location:
@@ -1464,6 +1565,7 @@
     rcvd: '-21'
 - datetime: 2022-09-15T15:23:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IT9FIQ
       location:
@@ -1477,6 +1579,7 @@
     rcvd: '56'
 - datetime: 2022-09-15T15:39:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OH6UBC
   connection:
@@ -1488,6 +1591,7 @@
     rcvd: '55'
 - datetime: 2022-09-16T12:42:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DQ5R
       location:
@@ -1501,6 +1605,7 @@
     rcvd: '-04'
 - datetime: 2022-09-16T12:44:16Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DK0DMB
       location:
@@ -1514,6 +1619,7 @@
     rcvd: '-20'
 - datetime: 2022-09-16T13:16:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PA7TA/QRP
       location:
@@ -1527,6 +1633,7 @@
     rcvd: '-12'
 - datetime: 2022-09-16T13:18:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DG6TOM
       location:
@@ -1540,6 +1647,7 @@
     rcvd: '-24'
 - datetime: 2022-09-16T13:25:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: T77C
       location:
@@ -1553,6 +1661,7 @@
     rcvd: '-13'
 - datetime: 2022-09-16T14:01:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: II5SMM
       location:
@@ -1566,6 +1675,7 @@
     rcvd: '-19'
 - datetime: 2022-09-16T14:07:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IU2KNG
       location:
@@ -1579,6 +1689,7 @@
     rcvd: '-10'
 - datetime: 2022-09-16T14:40:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: YO7CW
       location:
@@ -1592,6 +1703,7 @@
     rcvd: '-02'
 - datetime: 2022-09-16T14:45:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OE7ENJ
       location:
@@ -1605,6 +1717,7 @@
     rcvd: '-06'
 - datetime: 2022-09-16T14:46:45Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DM6ME
       location:
@@ -1618,6 +1731,7 @@
     rcvd: '-02'
 - datetime: 2022-09-16T16:17:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: LX1GQ
       location:
@@ -1631,6 +1745,7 @@
     rcvd: '-07'
 - datetime: 2022-09-16T16:20:30Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IW3IEA
       location:
@@ -1644,6 +1759,7 @@
     rcvd: '-09'
 - datetime: 2022-09-16T18:18:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: DJ8TX
       location:
@@ -1657,6 +1773,7 @@
     rcvd: '-09'
 - datetime: 2022-10-12T14:38:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: PH4E
       operator:
@@ -1670,6 +1787,7 @@
     rcvd: '45'
 - datetime: 2022-10-12T16:51:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: R4DI
       location:
@@ -1683,6 +1801,7 @@
     rcvd: '-17'
 - datetime: 2022-10-12T17:06:15Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: G4BEH
       location:
@@ -1696,6 +1815,7 @@
     rcvd: '-18'
 - datetime: 2022-10-12T17:25:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: 5B4AMM
       location:
@@ -1711,9 +1831,8 @@
 - datetime: 2022-12-25T08:25:00Z
   stations:
     logging: &2022-12-25
-      callsign: 3Z9V
-      location:
-        gridsquare: KN09in99
+      callsign: *callsign
+      location: *jamnica
       antenna:
         kind: Delta
         orientation: Horizontal
