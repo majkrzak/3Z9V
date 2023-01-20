@@ -2345,3 +2345,87 @@
     report:
     sent: '5NN'
     rcvd: '5NN'
+- datetime: 2023-01-20T13:56:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: DL6PX
+      location:
+        gridsquare: JO40
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076089
+  report:
+    sent: '+01'
+    rcvd: '-06'
+- datetime: 2023-01-20T13:57:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: HB9HSN
+      location:
+        gridsquare: JN36
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.076089
+  report:
+    sent: '-04'
+    rcvd: '-11'
+- datetime: 2023-01-20T14:04:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: DK7ZT
+      location:
+        gridsquare: JO4
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07618
+  report:
+    sent: '+18'
+    rcvd: '+04'
+- datetime: 2023-01-20T14:07:30Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: IZ1JLP
+      location:
+        gridsquare: JN33
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.07618
+  report:
+    sent: '+11'
+    rcvd: '+06'
+- datetime: 2023-01-20T14:19:30Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: DL7DJ
+      location:
+        gridsquare: JO41
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075838
+  report:
+    sent: '+04'
+    rcvd: '-16'
+- datetime: 2023-01-20T14:22:30Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: F6BHK
+      location:
+        gridsquare: JN24
+  connection:
+    band: 20m
+    mode: FT8
+    frequency: 14.075838
+  report:
+    sent: '-14'
+    rcvd: '-22'
