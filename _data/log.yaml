@@ -2297,3 +2297,51 @@
     report:
     sent: '5NN'
     rcvd: '5NN'
+- datetime: 2023-01-20T09:22:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: EF2WRTC
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.028993
+    report:
+    sent: '5NN'
+    rcvd: 'N'
+- datetime: 2023-01-20T09:36:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: II5WRTC
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.0175
+    report:
+    sent: '5NN'
+    rcvd: '5NN'
+- datetime: 2023-01-20T11:19:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: II3WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.245
+    report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-20T13:04:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: II6WRTC
+  connection:
+    band: 20m
+    mode: CW
+    frequency: 14.030555
+    report:
+    sent: '5NN'
+    rcvd: '5NN'
