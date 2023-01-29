@@ -2429,7 +2429,43 @@
   report:
     sent: '-14'
     rcvd: '-22'
-# TODO Jamnica operation
+# Jamnica operation
+- datetime: 2023-01-11T10:22:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II2WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.2415
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-11T10:45:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: LZ0WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.204
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-01-11T12:37:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EF2WRTC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.297
+  report:
+    sent: '59'
+    rcvd: '59'
 # SOTA SP/BS-005
 - datetime: 2023-01-29T11:30:00Z
   stations:
