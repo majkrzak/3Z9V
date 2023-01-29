@@ -2429,3 +2429,223 @@
   report:
     sent: '-14'
     rcvd: '-22'
+# TODO Jamnica operation
+# SOTA SP/BS-005
+- datetime: 2023-01-29T11:30:00Z
+  stations:
+    logging: &2023-01-29
+      callsign: *callsign
+      location:
+        gridsquare: KN09kn97
+        description: Jaworze
+        program:
+          sota: SP/BS-005
+      antena:
+        kind: Wire
+        length: 14m
+      power: 10
+    contacted:
+      callsign: LZ1CLM
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 59
+      rcvd: 57
+- datetime: 2023-01-29T11:32:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SV4SWQ/P
+      location:
+        program:
+          sota: SV/TL-072
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 59
+      rcvd: 59
+- datetime: 2023-01-29T11:34:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SV4RUJ/P
+      location:
+        program:
+          sota: SV/TL-072
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 59
+      rcvd: 59
+- datetime: 2023-01-29T11:35:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SM5LNE
+      operator:
+        name: Jon
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 58
+      rcvd: 59
+- datetime: 2023-01-29T11:38:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: EA2ET
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 51
+      rcvd: 55
+- datetime: 2023-01-29T11:40:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: ON2RD
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 55
+      rcvd: 55
+- datetime: 2023-01-29T11:47:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP9LPK/P
+      location:
+        program:
+          sota: SP/BI-005
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 31
+      rcvd: 22
+- datetime: 2023-01-29T11:50:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP9MPZ/P
+      location:
+        program:
+          sota: SP/BI-005
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 31
+      rcvd: 22
+- datetime: 2023-01-29T11:51:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP9RQA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 53
+      rcvd: 22
+- datetime: 2023-01-29T11:54:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SQ2RBJ/P
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 43
+      rcvd: 31
+- datetime: 2023-01-29T11:55:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SQ9JYK
+      operator:
+        name: Piotr
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 55
+      rcvd: 55
+- datetime: 2023-01-29T11:56:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SQ9RZA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 55
+      rcvd: 55
+- datetime: 2023-01-29T11:57:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP8GEJ
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 57
+      rcvd: 55
+- datetime: 2023-01-29T11:58:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SQ9RZA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 55
+      rcvd: 55
+- datetime: 2023-01-29T11:59:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP2SJP
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 41
+      rcvd: 41
+- datetime: 2023-01-29T12:00:00Z
+  stations:
+    logging: *2023-01-29
+    contacted:
+      callsign: SP6KEP
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.280
+    report:
+      sent: 59
+      rcvd: 55
