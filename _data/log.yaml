@@ -2744,4 +2744,21 @@
     mode: FM
     frequency: 144.550
   # report: exchanged, not logged
-
+# Jamnica operation
+- datetime: 2023-02-02T13:43:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M0MJA/P
+      operator:
+        name: Bob
+      location:
+        program:
+          wca: g-00306 g-00631
+  connection:
+    band: 15m
+    mode: SSB
+    frequency: 21.305
+  report:
+    sent: '58'
+    rcvd: '57'
