@@ -2822,3 +2822,50 @@
   report:
     sent: '42'
     rcvd: '58'
+- datetime: 2023-02-04T08:01:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F4GHB
+      operator:
+        name: Alain
+      location:
+        description: South France
+      power: 400
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.210
+  report:
+    sent: '53'
+    rcvd: '46'
+- datetime: 2023-02-04T08:21:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV1RVI/P
+      location:
+        program:
+          sota: SV/AT-034
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.323
+  report:
+    sent: '43'
+    rcvd: '41'
+- datetime: 2023-02-04T08:42:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV1RVJ/P
+      location:
+        program:
+          sota: SV/AT-034
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.330
+  report:
+    sent: '55'
+    rcvd: '44'
