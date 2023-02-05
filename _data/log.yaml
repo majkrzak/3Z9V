@@ -2872,181 +2872,241 @@
 # Home balcony operation
 - datetime: 2023-02-04T14:07:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: RW3YB
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.250
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 29
 - datetime: 2023-02-04T14:19:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: LZ3M
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.222
   report:
-    sent: 59 PL-03
-    rcvd: 59 BG-04
+    sent: 59 PL03
+    rcvd: 59 BG04
 - datetime: 2023-02-04T14:24:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F4AIF
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.184
   report:
-    sent: 59 PL-03
-    rcvd: 59 FR-09
+    sent: 59 PL03
+    rcvd: 59 FR09
 - datetime: 2023-02-04T14:42:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: F4GWM
   connection:
-    frequency: 14.2
+    band: 20m
+    mode: SSB
+    frequency: 14.200
   report:
-    sent: 59 PL-03
-    rcvd: 59 FR-02
+    sent: 59 PL03
+    rcvd: 59 FR02
 - datetime: 2023-02-04T15:10:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: RW1F
   connection:
-    frequency: 14.27
+    band: 20m
+    mode: SSB
+    frequency: 14.270
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 29
 - datetime: 2023-02-04T15:17:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IQ1RF
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.206
   report:
-    sent: 59 PL-03
-    rcvd: IT-14
+    sent: 59 PL03
+    rcvd: 59 IT-14
 - datetime: 2023-02-04T15:20:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: RW3DU
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.188
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 29
 - datetime: 2023-02-04T15:22:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: LX1ER
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.168
   report:
-    sent: 59 PL-03
-    rcvd: 59 BE-09
+    sent: 59 PL03
+    rcvd: 59 BE09
 - datetime: 2023-02-04T15:28:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IW1FRU
   connection:
-    frequency: 14.2
+    band: 20m
+    mode: SSB
+    frequency: 14.200
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-14
+    sent: 59 PL03
+    rcvd: 59 IT14
 - datetime: 2023-02-04T15:31:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK6LBT
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.185
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-12
+    sent: 59 PL03
+    rcvd: 59 IT12
 - datetime: 2023-02-04T15:44:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK5RLP
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.2805
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-19
+    sent: 59 PL03
+    rcvd: 59 IT19
 - datetime: 2023-02-05T08:09:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: G4ERW
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.269
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 27
 - datetime: 2023-02-05T08:12:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK2AQZ
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.289
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-11
+    sent: 59 PL03
+    rcvd: 59 IT11
 - datetime: 2023-02-05T08:15:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IQ3ME
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.2905
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-21
+    sent: 59 PL03
+    rcvd: 59 IT21
 - datetime: 2023-02-05T08:20:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IK1RGK
   connection:
-    frequency: 14.24
+    band: 20m
+    mode: SSB
+    frequency: 14.240
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-14
+    sent: 59 PL03
+    rcvd: 59 IT14
 - datetime: 2023-02-05T08:22:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: RA3OA
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.237
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 29
 - datetime: 2023-02-05T08:29:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: OZ11A
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.172
   report:
-    sent: 59 PL-03
-    rcvd: 59 DK-03
+    sent: 59 PL03
+    rcvd: 59 DK03
 - datetime: 2023-02-05T08:35:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: TA3NE
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.276
   report:
-    sent: 59 PL-03
+    sent: 59 PL03
     rcvd: 59 39
 - datetime: 2023-02-05T08:40:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: FX6TT
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.268
   report:
-    sent: 59 PL-03
-    rcvd: 59 FR-10
+    sent: 59 PL03
+    rcvd: 59 FR10
 - datetime: 2023-02-05T08:41:00Z
   stations:
+    logging: *2022-06-21
     contacted:
       callsign: IW2NXF
   connection:
+    band: 20m
+    mode: SSB
     frequency: 14.257
   report:
-    sent: 59 PL-03
-    rcvd: 59 IT-20
+    sent: 59 PL03
+    rcvd: 59 IT20
