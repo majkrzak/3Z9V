@@ -2869,3 +2869,184 @@
   report:
     sent: '55'
     rcvd: '44'
+# Home balcony operation
+- datetime: 2023-02-04T14:07:00Z
+  stations:
+    contacted:
+      callsign: RW3YB
+  connection:
+    frequency: 14.250
+  report:
+    sent: 59 PL-03
+    rcvd: 59 29
+- datetime: 2023-02-04T14:19:00Z
+  stations:
+    contacted:
+      callsign: LZ3M
+  connection:
+    frequency: 14.222
+  report:
+    sent: 59 PL-03
+    rcvd: 59 BG-04
+- datetime: 2023-02-04T14:24:00Z
+  stations:
+    contacted:
+      callsign: F4AIF
+  connection:
+    frequency: 14.184
+  report:
+    sent: 59 PL-03
+    rcvd: 59 FR-09
+- datetime: 2023-02-04T14:42:00Z
+  stations:
+    contacted:
+      callsign: F4GWM
+  connection:
+    frequency: 14.2
+  report:
+    sent: 59 PL-03
+    rcvd: 59 FR-02
+- datetime: 2023-02-04T15:10:00Z
+  stations:
+    contacted:
+      callsign: RW1F
+  connection:
+    frequency: 14.27
+  report:
+    sent: 59 PL-03
+    rcvd: 59 29
+- datetime: 2023-02-04T15:17:00Z
+  stations:
+    contacted:
+      callsign: IQ1RF
+  connection:
+    frequency: 14.206
+  report:
+    sent: 59 PL-03
+    rcvd: IT-14
+- datetime: 2023-02-04T15:20:00Z
+  stations:
+    contacted:
+      callsign: RW3DU
+  connection:
+    frequency: 14.188
+  report:
+    sent: 59 PL-03
+    rcvd: 59 29
+- datetime: 2023-02-04T15:22:00Z
+  stations:
+    contacted:
+      callsign: LX1ER
+  connection:
+    frequency: 14.168
+  report:
+    sent: 59 PL-03
+    rcvd: 59 BE-09
+- datetime: 2023-02-04T15:28:00Z
+  stations:
+    contacted:
+      callsign: IW1FRU
+  connection:
+    frequency: 14.2
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-14
+- datetime: 2023-02-04T15:31:00Z
+  stations:
+    contacted:
+      callsign: IK6LBT
+  connection:
+    frequency: 14.185
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-12
+- datetime: 2023-02-04T15:44:00Z
+  stations:
+    contacted:
+      callsign: IK5RLP
+  connection:
+    frequency: 14.2805
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-19
+- datetime: 2023-02-05T08:09:00Z
+  stations:
+    contacted:
+      callsign: G4ERW
+  connection:
+    frequency: 14.269
+  report:
+    sent: 59 PL-03
+    rcvd: 59 27
+- datetime: 2023-02-05T08:12:00Z
+  stations:
+    contacted:
+      callsign: IK2AQZ
+  connection:
+    frequency: 14.289
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-11
+- datetime: 2023-02-05T08:15:00Z
+  stations:
+    contacted:
+      callsign: IQ3ME
+  connection:
+    frequency: 14.2905
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-21
+- datetime: 2023-02-05T08:20:00Z
+  stations:
+    contacted:
+      callsign: IK1RGK
+  connection:
+    frequency: 14.24
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-14
+- datetime: 2023-02-05T08:22:00Z
+  stations:
+    contacted:
+      callsign: RA3OA
+  connection:
+    frequency: 14.237
+  report:
+    sent: 59 PL-03
+    rcvd: 59 29
+- datetime: 2023-02-05T08:29:00Z
+  stations:
+    contacted:
+      callsign: OZ11A
+  connection:
+    frequency: 14.172
+  report:
+    sent: 59 PL-03
+    rcvd: 59 DK-03
+- datetime: 2023-02-05T08:35:00Z
+  stations:
+    contacted:
+      callsign: TA3NE
+  connection:
+    frequency: 14.276
+  report:
+    sent: 59 PL-03
+    rcvd: 59 39
+- datetime: 2023-02-05T08:40:00Z
+  stations:
+    contacted:
+      callsign: FX6TT
+  connection:
+    frequency: 14.268
+  report:
+    sent: 59 PL-03
+    rcvd: 59 FR-10
+- datetime: 2023-02-05T08:41:00Z
+  stations:
+    contacted:
+      callsign: IW2NXF
+  connection:
+    frequency: 14.257
+  report:
+    sent: 59 PL-03
+    rcvd: 59 IT-20
