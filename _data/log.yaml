@@ -6,6 +6,9 @@
       location: &radocyna
         gridsquare: KN09ql53
         description: Camping site in Długie
+        program:
+          pota: SP-0426,SP-0532,SP-0724
+          wwff: SPFF-1596
       antenna:
         kind: Delta
         orientation: Horizontal
@@ -522,6 +525,9 @@
       location: &maszkowice
         gridsquare: KN09fn61
         description: Field in Maszkowice
+        program:
+          pota: SP-0724
+          wwff: SPFF-0384
       antenna:
         kind: Delta
         orientation: Horizontal
@@ -2479,6 +2485,8 @@
         description: Jaworze
         program:
           sota: SP/BS-005
+          pota: SP-0724
+          wwff: SPFF-0384
       antenna:
         kind: Wire
         length: 14
@@ -2698,6 +2706,8 @@
         decription: Czarci Wierch
         program:
           sota: SP/BZ-085
+          pota: SP-0788
+          wwff: SPFF-0110
     contacted:
       callsign: SQ9DDY
   connection:
@@ -3251,6 +3261,10 @@
     logging: *2022-12-25
     contacted:
       callsign: DL1ROT
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '55'
     rcvd: '55'
@@ -3259,6 +3273,10 @@
     logging: *2022-12-25
     contacted:
       callsign: IK4IDF
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '56'
     rcvd: '58'
@@ -3267,6 +3285,10 @@
     logging: *2022-12-25
     contacted:
       callsign: IU3EDK/P
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '54'
     rcvd: '59'
@@ -3275,6 +3297,10 @@
     logging: *2022-12-25
     contacted:
       callsign: IK2LEJ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '55'
     rcvd: '59'
@@ -3285,6 +3311,10 @@
       callsign: IK2WRJ
       operator:
         name: Angelo
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '59'
     rcvd: '59'
@@ -3295,6 +3325,10 @@
       callsign: PD3RL
       operator:
         name: Alex
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '59'
     rcvd: '35'
@@ -3306,6 +3340,10 @@
       location:
         program:
           pota: DA-0121
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '57'
     rcvd: '57'
@@ -3314,6 +3352,10 @@
     logging: *2022-12-25
     contacted:
       callsign: EA1GIB
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '55'
     rcvd: '55'
@@ -3322,6 +3364,10 @@
     logging: *2022-12-25
     contacted:
       callsign: ON3MK
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '34'
     rcvd: '45'
@@ -3332,6 +3378,10 @@
       callsign: IK1VIG
       operator:
         name: Mario
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.300
   report:
     sent: '59'
     rcvd: '55'
