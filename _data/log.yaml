@@ -556,6 +556,9 @@
       callsign: *callsign
       location: &jamnica
         gridsquare: KN09in99
+        program:
+          pota: SP-0724
+          wwff: SPFF-0384
       antenna:
         kind: Wire
         orientation: Horizontal
@@ -2869,7 +2872,7 @@
   report:
     sent: '55'
     rcvd: '44'
-# Home balcony operation
+# Home balcony operation: EUDX Constest
 - datetime: 2023-02-04T14:07:00Z
   stations:
     logging: *2022-06-21
@@ -3110,3 +3113,225 @@
   report:
     sent: 59 PL03
     rcvd: 59 IT20
+# Jamnica operation
+- datetime: 2023-02-26T17:03:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F4ICE
+      operator:
+        name: Alin
+      power: 500
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.138
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-02-26T18:32:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M0GLV
+      operator:
+        name: Marcin
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.217
+  report:
+    sent: '57'
+    rcvd: '59'
+- datetime: 2023-02-26T20:05:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II3LAG
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.131
+  report:
+    sent: '57'
+    rcvd: '44'
+- datetime: 2023-02-27T07:55:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: MM0YCJ/P
+      location:
+        program:
+          sota: ON/ON-025
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.29
+  report:
+    sent: '34'
+    rcvd: '44'
+- datetime: 2023-02-27T11:53:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV2CNE/P
+      location:
+        program:
+          sota: SV/TL-090
+          wwff: SVFF-0149
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.285
+  report:
+    sent: '43'
+    rcvd: '57'
+- datetime: 2023-02-27T11:59:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IN3EHQ/P
+      location:
+        program:
+          sota: I/TN-319
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.315
+  report:
+    sent: '42'
+    rcvd: '55'
+- datetime: 2023-02-27T12:26:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: HB9GVW/P
+      location:
+        program:
+          sota: HB/FR-040
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.294
+  report:
+    sent: '42'
+    rcvd: '44'
+- datetime: 2023-02-27T13:00:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV1KYQ/P
+      location:
+        program:
+          sota: SV/AT-014
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.303
+  report:
+    sent: '42'
+    rcvd: '55'
+- datetime: 2023-02-27T13:44:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DC5LY
+      location:
+        program:
+          sota: DM/SA-001
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.296
+  report:
+    sent: '52'
+    rcvd: '57'
+- datetime: 2023-02-27T16:01:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DL1ROT
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-02-27T16:02:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK4IDF
+  report:
+    sent: '56'
+    rcvd: '58'
+- datetime: 2023-02-27T16:03:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IU3EDK/P
+  report:
+    sent: '54'
+    rcvd: '59'
+- datetime: 2023-02-27T16:04:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK2LEJ
+  report:
+    sent: '55'
+    rcvd: '59'
+- datetime: 2023-02-27T16:05:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK2WRJ
+      operator:
+        name: Angelo
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-02-27T16:06:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: PD3RL
+      operator:
+        name: Alex
+  report:
+    sent: '59'
+    rcvd: '35'
+- datetime: 2023-02-27T16:07:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DK9CA
+      location:
+        program:
+          pota: DA-0121
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-02-27T16:08:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA1GIB
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-02-27T16:09:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: ON3MK
+  report:
+    sent: '34'
+    rcvd: '45'
+- datetime: 2023-02-27T16:10:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK1VIG
+      operator:
+        name: Mario
+  report:
+    sent: '59'
+    rcvd: '55'
