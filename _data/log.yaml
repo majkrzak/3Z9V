@@ -3385,3 +3385,173 @@
   report:
     sent: '59'
     rcvd: '55'
+# Zamczysko nad Rabą activation
+- datetime: 2023-03-19T12:46:00Z
+  stations:
+    logging: &2023-03-19
+      callsign: *callsign
+      location:
+        gridsquare: JN99XT36
+        program:
+          pota: SP-0955
+          wwff: SPFF-0755
+    contacted:
+      callsign: IZ8QMH
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.238
+  report:
+    sent: '59'
+    rcvd: '57'
+- datetime: 2023-03-19T12:54:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: EA1FIC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.305
+  report:
+    sent: '54'
+    rcvd: '32'
+- datetime: 2023-03-19T12:55:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: PD4US
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.305
+  report:
+    sent: '53'
+    rcvd: '54'
+- datetime: 2023-03-19T12:56:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: EA4TL
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.305
+  report:
+    sent: '55'
+    rcvd: '54'
+- datetime: 2023-03-19T12:57:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: F4ILH
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.305
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-03-19T13:04:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: CT1EWU
+      operator:
+        name: Luis
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.130
+  report:
+    sent: '54'
+    rcvd: '32'
+- datetime: 2023-03-19T13:13:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: SP8QC
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.165
+  report:
+    sent: '59'
+    rcvd: '57'
+- datetime: 2023-03-19T13:15:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: SP9JE
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.165
+  report:
+    sent: '58'
+    rcvd: '55'
+- datetime: 2023-03-19T13:17:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: SO5CAL
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.165
+  report:
+    sent: '55'
+    rcvd: '59'
+- datetime: 2023-03-19T13:22:00Z
+  stations:
+    logging: *2023-03-19
+    contacted:
+      callsign: EA1AF
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.280
+  report:
+    sent: '55'
+    rcvd: '53'
+# Home balcony operation
+- datetime: 2023-03-19T16:28:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: PD2TW
+      operator:
+        name: Tjip
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.320
+  report:
+    sent: '57'
+    rcvd: '53'
+- datetime: 2023-03-19T16:33:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: IU6EUN
+      operator:
+        name: Marco
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.277
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-03-19T16:35:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: II0IGU
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.187
+  report:
+    sent: '59'
+    rcvd: '59'
