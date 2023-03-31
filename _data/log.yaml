@@ -3555,3 +3555,147 @@
   report:
     sent: '59'
     rcvd: '59'
+- datetime: 2023-03-26T10:50:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: IT9CAR
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.272
+  report:
+    sent: 59 001
+    rcvd: 59 184
+- datetime: 2026-03-26T10:52:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: YT5A
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.25
+  report:
+    sent: 59 002
+    rcvd: 59 1733
+- datetime: 2023-03-26T10:54:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: SZ1A
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.234
+  report:
+    sent: 59 003
+    rcvd: 59 1250
+- datetime: 2023-03-26T10:58:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: OZ5W
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.154
+  report:
+    sent: 59 004
+    rcvd: 59 495
+- datetime: 2023-03-26T10:59:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: PD9PWR
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.124
+  report:
+    sent: '56'
+    rcvd: '34'
+- datetime: 2023-03-26T11:00:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: UT3EV
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.12
+  report:
+    sent: 59 005
+    rcvd: 59 918
+- datetime: 2023-03-26T11:23:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: 9A50P
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.259
+  report:
+    sent: 59 006
+    rcvd: 59 1921
+- datetime: 2023-03-26T11:25:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: LZ6E
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.275
+  report:
+    sent: 59 007
+    rcvd: 59 830
+- datetime: 2023-03-26T11:26:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: DA23WARD
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.3195
+  report:
+    sent: 59 008
+    rcvd: 59 323
+- datetime: 2023-03-26T11:29:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: DR0W
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.332
+  report:
+    sent: 59 009
+    rcvd: 59 2410
+- datetime: 2023-03-26T11:31:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: IK3UNA
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.304
+  report:
+    sent: 59 010
+    rcvd: 59 1778
+- datetime: 2023-03-26T11:33:00Z
+  stations:
+    logging: *2022-06-21
+    contacted:
+      callsign: LZ5R
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.292
+  report:
+    sent: 59 011
+    rcvd: 59 4379
