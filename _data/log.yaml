@@ -3817,6 +3817,174 @@
   report:
     sent: '54'
     rcvd: '59'
+- datetime: 2023-04-07T16:07:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP9IEK
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.739
+  report:
+    sent: 59 001NS
+    rcvd: 59 010TW
+- datetime: 2023-04-07T16:08:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: 3Z3AHK
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.727
+  report:
+    sent: 59 002NS
+    rcvd: 59 013NL
+- datetime: 2023-04-07T16:13:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: HF7A
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.703
+  report:
+    sent: 59 003NS
+    rcvd: 59 027AQ
+- datetime: 2023-04-07T16:15:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ7CGN
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.7
+  report:
+    sent: 59 004NS
+    rcvd: 59 028WU
+- datetime: 2023-04-07T16:17:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9AKY
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.707
+  report:
+    sent: 59 005NS
+    rcvd: 59 030GI
+- datetime: 2023-04-07T16:20:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9PKM
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.715
+  report:
+    sent: 59 006NS
+    rcvd: 59 030WV
+- datetime: 2023-04-07T16:25:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9DXT
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.7335
+  report:
+    sent: 59 007NS
+    rcvd: 59 034CY
+- datetime: 2023-04-07T16:27:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP8GK
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.737
+  report:
+    sent: 59 008NS
+    rcvd: 59 032JS
+- datetime: 2023-04-07T16:30:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP3MEP
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.748
+  report:
+    sent: 59 009NS
+    rcvd: 59 045LS
+- datetime: 2023-04-07T16:34:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP9SMD
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.752
+  report:
+    sent: 59 010NS
+    rcvd: 59 040WA
+- datetime: 2023-04-07T16:36:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9PCA
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.771
+  report:
+    sent: 59 011NS
+    rcvd: 59 045OW
+- datetime: 2023-04-07T16:40:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9ZAY
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.756
+  report:
+    sent: 59 012NS
+    rcvd: 59 033WI
+- datetime: 2023-04-07T16:42:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP9CJM
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.747
+  report:
+    sent: 59 013NS
+    rcvd: 59 031BO
+- datetime: 2023-04-07T16:54:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ9PUW
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 3.735
+  report:
+    sent: 59 014NS
+    rcvd: 59 047WA
 - datetime: 2023-04-08T12:23:00Z
   stations:
     logging: *2022-12-25
