@@ -3567,7 +3567,7 @@
   report:
     sent: 59 001
     rcvd: 59 184
-- datetime: 2026-03-26T10:52:00Z
+- datetime: 2023-03-26T10:52:00Z
   stations:
     logging: *2022-06-21
     contacted:
@@ -3723,3 +3723,544 @@
   report:
     sent: '52'
     rcvd: 59 3P
+# Jamnica operation
+- datetime: 2023-04-06T20:23:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: MW7ABS
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.285
+  report:
+    sent: '55'
+    rcvd: '58'
+- datetime: 2023-04-06T20:53:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: YU1XA
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.137
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-06T20:54:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: YK1TA
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.137
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-06T20:59:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: DC5VU
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.137
+  report:
+    sent: '55'
+    rcvd: '58'
+- datetime: 2023-04-07T14:27:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M0MJA/P
+      operator:
+        name: Bob
+      location:
+        program:
+          wca: G-03413
+  connection:
+    band: 15m
+    mode: SSB
+    frequency: 21.282
+  report:
+    sent: '56'
+    rcvd: '57'
+- datetime: 2023-04-07T15:24:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F3JEJ
+      operator:
+        name: David
+      location:
+        description: Normandy
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.263
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-04-07T15:38:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK4LZH
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.2
+  report:
+    sent: '54'
+    rcvd: '59'
+- datetime: 2023-04-08T12:23:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EI2LD
+  connection:
+    band: 12m
+    mode: SSB
+    frequency: 24.95
+  report:
+    sent: '54'
+    rcvd: '54'
+- datetime: 2023-04-08T12:31:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: CU3HY
+  connection:
+    band: 15m
+    mode: SSB
+    frequency: 21.285
+  report:
+    sent: '54'
+    rcvd: '54'
+- datetime: 2023-04-08T12:40:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SV8SWF
+      operator:
+        name: Kostal
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.13
+  report:
+    sent: '58'
+    rcvd: '55'
+- datetime: 2023-04-08T12:56:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: LB0HI
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '42'
+    rcvd: '44'
+- datetime: 2023-04-08T12:58:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA1DHB
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '53'
+    rcvd: '59'
+- datetime: 2023-04-08T12:59:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: ES4ART
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '52'
+    rcvd: '55'
+- datetime: 2023-04-08T13:00:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP8QC
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '42'
+    rcvd: '44'
+- datetime: 2023-04-08T13:01:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA1AF
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '59'
+    rcvd: '57'
+- datetime: 2023-04-08T13:02:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IU2JFG
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-04-08T13:03:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: ON3TDZ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '57'
+    rcvd: '55'
+- datetime: 2023-04-08T13:04:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M5SJM
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-04-08T13:05:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IU2OQK
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '34'
+    rcvd: '42'
+- datetime: 2023-04-08T13:10:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IU5FJB
+      location:
+        program:
+          pota: I-1116
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-08T13:12:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK2ODD
+      operator:
+        name: Luka
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '58'
+    rcvd: '59'
+- datetime: 2023-04-08T13:13:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F5TGC
+      operator:
+        name: Antoni
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-08T13:17:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F1BGY
+      operator:
+        name: Jan
+      location:
+        description: NE Paris
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-04-08T13:21:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: HB9HCZ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.32
+  report:
+    sent: '59'
+    rcvd: '58'
+- datetime: 2023-04-08T16:16:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK2LEY
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.315
+  report:
+    sent: '56'
+    rcvd: '56'
+- datetime: 2023-04-08T16:19:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA4GJP
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.315
+  report:
+    sent: '32'
+    rcvd: '55'
+- datetime: 2023-04-08T16:20:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EC1R
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.315
+  report:
+    sent: '59'
+    rcvd: '57'
+- datetime: 2023-04-08T16:35:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IK2NCG
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.327
+  report:
+    sent: '43'
+    rcvd: '44'
+- datetime: 2023-04-08T16:40:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M5ABH/M
+      operator:
+        name: Dave
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-08T16:43:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: G6AD
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '56'
+    rcvd: '57'
+- datetime: 2023-04-08T16:44:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: F6GNP/M
+      operator:
+        name: Mil
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '54'
+    rcvd: '53'
+- datetime: 2023-04-08T16:47:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M0IYE
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '36'
+    rcvd: '55'
+- datetime: 2023-04-08T16:48:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EC5KY
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '56'
+    rcvd: '58'
+- datetime: 2023-04-08T16:49:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EI4CN
+      operator:
+        name: Mike
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '52'
+    rcvd: '53'
+- datetime: 2023-04-08T16:50:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA2DDG
+      operator:
+        name: Hose
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-04-08T16:51:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: M0OIA
+      operator:
+        name: Piotr
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.1275
+  report:
+    sent: '57'
+    rcvd: '59'
+- datetime: 2023-04-08T17:06:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: GM4VYQ/P
+      operator:
+        name: Liam
+  connection:
+    band: 15m
+    mode: SSB
+    frequency: 21.325
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-08T18:53:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA9IB
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.149
+  report:
+    sent: '54'
+    rcvd: '55'
+- datetime: 2023-04-08T19:12:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: VA1AV
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.315
+  report:
+    sent: '53'
+    rcvd: '57'
+- datetime: 2023-04-08T19:19:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EA4TL
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.293
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-08T19:22:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: G0FQA
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.293
+  report:
+    sent: '57'
+    rcvd: '55'
+- datetime: 2023-04-08T19:26:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: G6BFP
+      operator:
+        name: Liee
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.293
+  report:
+    sent: '57'
+    rcvd: '57'
