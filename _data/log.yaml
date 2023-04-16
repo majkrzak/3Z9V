@@ -4432,3 +4432,297 @@
   report:
     sent: '57'
     rcvd: '57'
+# Maszkowice field operation
+- datetime: 2023-04-15T08:51:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: IW0HLE
+      operator:
+        name: Johny
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '59'
+    rcvd: '54'
+- datetime: 2023-04-15T08:52:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: SP9RXP
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '44'
+    rcvd: '55'
+- datetime: 2023-04-15T08:53:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: F4ILH
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-15T08:54:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: FT4FTJ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T08:57:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: 2E0ESJ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '44'
+    rcvd: '43'
+- datetime: 2023-04-15T08:58:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: IW2CZE
+    power: 5
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-15T08:59:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: EA4TL
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-04-15T09:00:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: DL2ZYA
+    power: 10
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '55'
+    rcvd: '57'
+- datetime: 2023-04-15T09:05:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: EA1FOF
+      operator:
+        name: Albert
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.335
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-15T11:45:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: M6WHH
+      operator:
+        name: Alan
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.13
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-15T11:47:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: G0AOJ
+      operator:
+        name: Fred
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.13
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-04-15T12:00:00Z
+  stations:
+    logging: *2022-07-27
+    contacted:
+      callsign: DL1NCH
+      operator:
+        name: Jacek
+      location:
+        description: Kewelerh
+    power: 100
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.303
+  report:
+    sent: '59'
+    rcvd: '57'
+# Jamnica operation
+- datetime: 2023-04-15T16:17:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: IU8PWZ
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.325
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-04-15T16:20:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: II1ALB
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.244
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T16:33:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SQ8JCB/8
+      operator:
+        name: Mariusz
+      location:
+        program:
+          wca: SP-00707
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.193
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T16:42:10Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP8KATYN
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.16
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T16:42:20Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP3TYJ
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.16
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T16:42:30Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: SP3PDO
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.16
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T17:35:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: EG7SW
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.29
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T19:28:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: GB0SIM
+      operator:
+        name: Marcin
+      location:
+        description: Muck Island (IOTA EU008)
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.181
+  report:
+    sent: '59'
+    rcvd: '59'
+- datetime: 2023-04-15T19:43:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: G7LRR
+      operator:
+        name: Andy
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.195
+  report:
+    sent: '57'
+    rcvd: '54'
+- datetime: 2023-04-15T19:44:00Z
+  stations:
+    logging: *2022-12-25
+    contacted:
+      callsign: 2E1TAP
+      operator:
+        name: Andy
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.195
+  report:
+    sent: '55'
+    rcvd: '54'
