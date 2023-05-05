@@ -4876,7 +4876,7 @@
         description: Jasło (1153 m n.p.m.)
         program:
           sota: SP/BI-007
-          pota: SP-0247,SP-0227
+          pota: SP-0227,SP-0247
           wwff: SPFF-0435
     contacted:
       callsign: SV3IEG
@@ -4992,3 +4992,309 @@
   report:
     sent: '59'
     rcvd: '59'
+# Monasterzec activation
+- datetime: 2023-05-02T10:22:00Z
+  stations:
+    logging: &2023-05-02
+      callsign: *callsign
+      location:
+        gridsquare: KN19EM03
+        description: San river in Manasterzec
+        program:
+          pota: SP-0264,SP-0332
+          wwff: SPFF-1838
+    contacted:
+      callsign: SP8PKT
+      operator:
+        name: Darek
+      location:
+        program:
+          pota: SP-0087
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.177
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-05-02T10:42:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SP4VIT
+      operator:
+        name: Wiktor
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '52'
+    rcvd: '43'
+- datetime: 2023-05-02T10:43:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SP9RQA
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '55'
+    rcvd: '33'
+- datetime: 2023-05-02T10:44:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SP5ES
+      operator:
+        name: Marcin
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '44'
+    rcvd: '57'
+- datetime: 2023-05-02T10:45:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SQ8RMX
+      operator:
+        name: Paweł
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '55'
+    rcvd: '59'
+- datetime: 2023-05-02T10:47:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SP8AWL
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '58'
+    rcvd: '59'
+- datetime: 2023-05-02T10:48:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: HF7A
+      operator:
+        name: Leszek
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.18
+  report:
+    sent: '55'
+    rcvd: '56'
+- datetime: 2023-05-02T10:51:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: SP5JK/P
+      location:
+        program:
+          sota: SP/BI-004
+  connection:
+    band: 2m
+    mode: FM
+    frequency: 145.55
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-05-02T11:07:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: 2E0GFY/P
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.28
+  report:
+    sent: '52'
+    rcvd: '43'
+- datetime: 2023-05-02T11:20:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: IS0GDA
+      operator:
+        name: Max
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.132
+  report:
+    sent: '57'
+    rcvd: '55'
+- datetime: 2023-05-02T11:52:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: ON3ACD
+      operator:
+        name: Toni
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.33
+  report:
+    sent: '59'
+    rcvd: '58'
+- datetime: 2023-05-02T11:57:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: IK2LEY/P
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.33
+  report:
+    sent: '54'
+    rcvd: '57'
+- datetime: 2023-05-02T11:59:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: PD3RL
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.33
+  report:
+    sent: '58'
+    rcvd: '22'
+- datetime: 2023-05-02T12:01:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: PD9JN
+      operator:
+        name: Jul
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.33
+  report:
+    sent: '59'
+    rcvd: '58'
+- datetime: 2023-05-02T12:31:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: IZ1WYO/M
+      operator:
+        name: Lorenzo
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.29
+  report:
+    sent: '57'
+    rcvd: '59'
+- datetime: 2023-05-02T12:52:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: EA1AF
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.14
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-05-02T12:57:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: GW4GNY
+      operator:
+        name: Martin
+  connection:
+    band: 17m
+    mode: SSB
+    frequency: 18.14
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-05-02T13:49:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: OS8D
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.291
+  report:
+    sent: '55'
+    rcvd: '57'
+- datetime: 2023-05-02T13:50:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: IK4IDF
+      operator:
+        name: Rafael
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.212
+  report:
+    sent: '55'
+    rcvd: '57'
+- datetime: 2023-05-02T13:51:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: F6HQP
+      operator:
+        name: Marc
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.212
+  report:
+    sent: '57'
+    rcvd: '57'
+- datetime: 2023-05-02T13:52:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: I4RHP
+      operator:
+        name: Rudolf
+      location:
+        description: Bolognia
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.212
+  report:
+    sent: '56'
+    rcvd: '54'
+- datetime: 2023-05-02T13:54:00Z
+  stations:
+    logging: *2023-05-02
+    contacted:
+      callsign: GB3RS
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.212
+  report:
+    sent: '54'
+    rcvd: '57'
