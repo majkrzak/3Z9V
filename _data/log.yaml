@@ -4866,3 +4866,129 @@
   report:
     sent: '55'
     rcvd: '53'
+# Jasło activation
+- datetime: 2023-05-01T10:34:00Z
+  stations:
+    logging: &2023-05-01
+      callsign: *callsign
+      location:
+        gridsquare: KN19ED38
+        description: Jasło (1153 m n.p.m.)
+        program:
+          sota: SP/BI-007
+          pota: SP-0247,SP-0227
+          wwff: SPFF-0435
+    contacted:
+      callsign: SV3IEG
+      operator:
+        name: Dinos
+      location:
+        description: Patra
+  connection:
+    band: 20m
+    mode: SSB
+    frequency: 14.293
+  report:
+    sent: '55'
+    rcvd: '58'
+- datetime: 2023-05-01T10:51:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SP6KEP
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '55'
+    rcvd: '57'
+- datetime: 2023-05-01T10:52:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SP6F/P
+      location:
+        program:
+          sota: SP/BS-032
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '53'
+    rcvd: '58'
+- datetime: 2023-05-01T10:53:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SP9BIJ/P
+      location:
+        program:
+          sota: SP/BZ-084
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '52'
+    rcvd: '55'
+- datetime: 2023-05-01T10:54:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SP9AMH
+      operator:
+        name: Mariusz
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '52'
+    rcvd: '55'
+- datetime: 2023-05-01T10:55:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SQ9RZA
+      operator:
+        name: Grzegorz
+      location:
+        description: Jaworzno
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '59'
+    rcvd: '55'
+- datetime: 2023-05-01T10:56:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: SP8DY
+      operator:
+        name: Antoni
+  connection:
+    band: 40m
+    mode: SSB
+    frequency: 7.182
+  report:
+    sent: '55'
+    rcvd: '55'
+- datetime: 2023-05-01T11:38:00Z
+  stations:
+    logging: *2023-05-01
+    contacted:
+      callsign: OM0WT/P
+      location:
+        program:
+          sota: OM/PO-080
+  connection:
+    band: 2m
+    mode: FM
+    frequency: 145.5
+  report:
+    sent: '59'
+    rcvd: '59'
