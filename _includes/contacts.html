@@ -19,7 +19,7 @@
       Report
     </th>
   </tr>
-  {% assign records = site.data.log | reverse %}
+  {% assign records = site.data.log.contacts | reverse %}
   {% for record in records limit:include.limit %}
   <tr>
     <td>{{ record.datetime | date: "%Y-%m-%d %H:%M"}}</td>
