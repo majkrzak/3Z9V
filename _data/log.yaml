@@ -5284,3 +5284,88 @@ contacts:
     report:
       sent: '54'
       rcvd: '57'
+# Home balcony operatiorn
+  - datetime: 2023-05-06T10:31:45Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: EA1IOK
+        location:
+          gridsquare: IN62
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.101298
+    report:
+      sent: '+06'
+      rcvd: '-12'
+  - datetime: 2023-05-06T10:54:00Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: F5HNQ
+        location:
+          gridsquare: IN98
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.101907
+    report:
+      sent: '-10'
+      rcvd: '-13'
+  - datetime: 2023-05-06T11:44:15Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: GM4VAC
+        location:
+          gridsquare: IO77
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.102063
+    report:
+      sent: '-13'
+      rcvd: '-24'
+  - datetime: 2023-05-06T12:05:30Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: SP9VEY
+        location:
+          gridsquare: KO00
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.101863
+    report:
+      sent: '+07'
+      rcvd: '+02'
+  - datetime: 2023-05-06T13:40:45Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: EC3A
+        location:
+          gridsquare: ''
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.101351
+    report:
+      sent: '+01'
+      rcvd: '-14'
+  - datetime: 2023-05-06T13:45:30Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: MW0CNA
+        location:
+          gridsquare: IO81
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.101351
+    report:
+      sent: '-09'
+      rcvd: '-12'
