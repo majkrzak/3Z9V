@@ -4689,7 +4689,9 @@ contacts:
         operator:
           name: Marcin
         location:
-          description: Muck Island (IOTA EU008)
+          description: Muck Island
+          program:
+            iota: EU-008
     connection:
       band: 40m
       mode: SSB
