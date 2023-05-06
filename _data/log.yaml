@@ -3,6 +3,7 @@ metadata:
   - &c8681d41-a6c1-496c-a0af-665610bc1cce 3Z9V
   locations:
   - &b07c1a5b-286a-40ee-8943-4d2538a12185
+    dxcc: 269
     gridsquare: KN09QL53
     description: Camping site in Długie
     program:
@@ -10,11 +11,13 @@ metadata:
       pota: SP-0426,SP-0532,SP-0724
       wwff: SPFF-1596
   - &90d59779-c22e-4f5d-ba88-282ba60e7b78
+    dxcc: 269
     gridsquare: KO00AA15
     description: Kraków
     program:
       pga: KM01
   - &61e55467-496f-4e6b-984c-b81d36698629
+    dxcc: 269
     gridsquare: KN09IN99
     description: Jamnica
     program:
@@ -22,6 +25,7 @@ metadata:
       pota: SP-0724
       wwff: SPFF-0384
   - &3f5abcb1-3ce9-4e13-ab4b-2c30ed4859ef
+    dxcc: 269
     gridsquare: KN09FN61
     description: Maszkowice
     program:
@@ -29,6 +33,7 @@ metadata:
       pota: SP-0724
       wwff: SPFF-0384
   - &03f0a0b7-f84e-4452-889d-00133fc5e24f
+    dxcc: 269
     gridsquare: KN09kn97
     description: Jaworze (882 m)
     program:
@@ -37,6 +42,7 @@ metadata:
       pota: SP-0724
       wwff: SPFF-0384
   - &886cd14a-9689-433c-acf9-5ef1e267dd45
+    dxcc: 269
     gridsquare: KN09JL65
     decription: Czarci Wierch (1091 m)
     program:
@@ -45,6 +51,7 @@ metadata:
       pota: SP-0788
       wwff: SPFF-0110
   - &757679ba-bd30-4ec1-aa22-4646d97c6e0e
+    dxcc: 269
     gridsquare: JN99XT36
     description: Zamczysko nad Rabą
     program:
@@ -52,6 +59,7 @@ metadata:
       pota: SP-0955
       wwff: SPFF-0755
   - &193824d6-0a77-412c-b2aa-32b24a54db97
+    dxcc: 269
     gridsquare: KN19ED38
     description: Jasło (1153 m)
     program:
@@ -60,6 +68,7 @@ metadata:
       pota: SP-0227,SP-0247
       wwff: SPFF-0435
   - &672a6bf8-5c51-4e79-9a38-c533878cb8c3
+    dxcc: 269
     gridsquare: KN19EM03
     description: Shore of the San river in Manasterzec
     program:
