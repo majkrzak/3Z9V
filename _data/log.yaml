@@ -5379,13 +5379,11 @@ contacts:
         location:
           gridsquare: JN54KP
       connection:
-        band:
-          rx: 70cm
-          tx: 2m
+        band: 2m
+        band_rx: 70cm
         mode: FM
-        frequency:
-          rx: 437.800
-          tx: 145.990
+        frequency: 145.990
+        frequency_rx: 437.800
         via:
           satellite: ISS
       report:
