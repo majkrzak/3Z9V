@@ -5378,14 +5378,14 @@ contacts:
         callsign: IK4JQQ
         location:
           gridsquare: JN54KP
-      connection:
-        band: 2m
-        band_rx: 70cm
-        mode: FM
-        frequency: 145.990
-        frequency_rx: 437.800
-        via:
-          satellite: ISS
-      report:
-        sent: '59'
-        rcvd: '59'
+    connection:
+      band: 2m
+      band_rx: 70cm
+      mode: FM
+      frequency: 145.990
+      frequency_rx: 437.800
+      via:
+        satellite: ISS
+    report:
+      sent: '59'
+      rcvd: '59'
