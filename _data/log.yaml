@@ -5370,8 +5370,109 @@ contacts:
     report:
       sent: '-09'
       rcvd: '-12'
-
-  - datetime: 2023-05-06T21:42:00Z
+  - datetime: 2023-05-07T15:30:00Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: GM4SUF
+        location:
+          gridsquare: IO77
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.07464
+    report:
+      sent: '-11'
+      rcvd: '-20'
+  - datetime: 2023-05-07T15:41:46Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: LZ1MNW
+        location:
+          gridsquare: KN21
+    connection:
+      band: 20m
+      mode: FT4
+      frequency: 14.082306
+    report:
+      sent: '+02'
+      rcvd: '-12'
+  - datetime: 2023-05-07T18:27:30Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: IK1NTB
+        location:
+          gridsquare: JN35
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075997
+    report:
+      sent: '-06'
+      rcvd: '-18'
+  - datetime: 2023-05-07T18:29:30Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: PA3KUS
+        location:
+          gridsquare: JO21
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075997
+    report:
+      sent: '+10'
+      rcvd: '-12'
+  - datetime: 2023-05-08T11:00:15Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: DL1GG
+        location:
+          gridsquare: JO32
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075184
+    report:
+      sent: '-11'
+      rcvd: '-23'
+  - datetime: 2023-05-08T12:00:45Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          gridsquare: KO00AA
+      contacted:
+        callsign: PD0RWH
+        location:
+          gridsquare: JO23
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075995
+    report:
+      sent: '-02'
+      rcvd: '-20'
+  - datetime: 2023-05-15T21:42:00Z
     stations:
       logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
