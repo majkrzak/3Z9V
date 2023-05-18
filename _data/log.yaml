@@ -4,7 +4,7 @@ metadata:
   locations:
   - &b07c1a5b-286a-40ee-8943-4d2538a12185
     dxcc: 269
-    gridsquare: KN09QL53
+    gridsquare: KN09ql53
     description: Camping site in Długie
     program:
       pga: GO09
@@ -12,13 +12,13 @@ metadata:
       wwff: SPFF-1596
   - &90d59779-c22e-4f5d-ba88-282ba60e7b78
     dxcc: 269
-    gridsquare: KO00AA15
+    gridsquare: KO00aa15
     description: Kraków
     program:
       pga: KM01
   - &61e55467-496f-4e6b-984c-b81d36698629
     dxcc: 269
-    gridsquare: KN09IN99
+    gridsquare: KN09in99
     description: Jamnica
     program:
       pga: NS05
@@ -26,7 +26,7 @@ metadata:
       wwff: SPFF-0384
   - &3f5abcb1-3ce9-4e13-ab4b-2c30ed4859ef
     dxcc: 269
-    gridsquare: KN09FN61
+    gridsquare: KN09fn61
     description: Maszkowice
     program:
       pga: NS09
@@ -43,7 +43,7 @@ metadata:
       wwff: SPFF-0384
   - &886cd14a-9689-433c-acf9-5ef1e267dd45
     dxcc: 269
-    gridsquare: KN09JL65
+    gridsquare: KN09jl65
     decription: Czarci Wierch (1091 m)
     program:
       pga: NS08
@@ -52,7 +52,7 @@ metadata:
       wwff: SPFF-0110
   - &757679ba-bd30-4ec1-aa22-4646d97c6e0e
     dxcc: 269
-    gridsquare: JN99XT36
+    gridsquare: JN99xt36
     description: Zamczysko nad Rabą
     program:
       pga: MQ03
@@ -61,7 +61,7 @@ metadata:
       wwff: SPFF-0755
   - &193824d6-0a77-412c-b2aa-32b24a54db97
     dxcc: 269
-    gridsquare: KN19ED38
+    gridsquare: KN19ed38
     description: Jasło (1153 m)
     program:
       pga: LK02
@@ -70,7 +70,7 @@ metadata:
       wwff: SPFF-0435
   - &672a6bf8-5c51-4e79-9a38-c533878cb8c3
     dxcc: 269
-    gridsquare: KN19EM03
+    gridsquare: KN19em03
     description: Shore of the San river in Manasterzec
     program:
       pga: LK03
@@ -2414,7 +2414,7 @@ contacts:
       contacted:
         callsign: DK7ZT
         location:
-          gridsquare: JO4
+          gridsquare: JO40
     connection:
       band: 20m
       mode: FT8
@@ -5348,7 +5348,7 @@ contacts:
       contacted:
         callsign: EC3A
         location:
-          gridsquare: ''
+          gridsquare: JN00
     connection:
       band: 17m
       mode: FT8
@@ -5384,10 +5384,7 @@ contacts:
       rcvd: '57'
   - datetime: 2023-05-07T15:30:00Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: GM4SUF
         location:
@@ -5401,10 +5398,7 @@ contacts:
       rcvd: '-20'
   - datetime: 2023-05-07T15:41:46Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: LZ1MNW
         location:
@@ -5418,10 +5412,7 @@ contacts:
       rcvd: '-12'
   - datetime: 2023-05-07T18:27:30Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: IK1NTB
         location:
@@ -5435,10 +5426,7 @@ contacts:
       rcvd: '-18'
   - datetime: 2023-05-07T18:29:30Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: PA3KUS
         location:
@@ -5452,10 +5440,7 @@ contacts:
       rcvd: '-12'
   - datetime: 2023-05-08T11:00:15Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: DL1GG
         location:
@@ -5469,10 +5454,7 @@ contacts:
       rcvd: '-23'
   - datetime: 2023-05-08T12:00:45Z
     stations:
-      logging:
-        callsign: 3Z9V
-        location:
-          gridsquare: KO00AA
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
       contacted:
         callsign: PD0RWH
         location:
@@ -5490,7 +5472,7 @@ contacts:
       contacted:
         callsign: IK4JQQ
         location:
-          gridsquare: JN54KP
+          gridsquare: JN54kp
     connection:
       band: 2m
       band_rx: 70cm
