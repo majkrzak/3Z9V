@@ -5370,6 +5370,18 @@ contacts:
     report:
       sent: '-09'
       rcvd: '-12'
+  - datetime: 2023-05-07T14:16:00Z
+    stations:
+      logging: *471bd537-d6fc-4724-8a6f-d39ab848574d
+      contacted:
+        callsign: TM45KOP
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.1775
+    report:
+      sent: '55'
+      rcvd: '57'
   - datetime: 2023-05-07T15:30:00Z
     stations:
       logging:
