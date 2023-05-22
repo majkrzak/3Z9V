@@ -5480,7 +5480,7 @@ contacts:
       frequency: 145.990
       frequency_rx: 437.800
       via:
-        satellite: ISS
+        satellite: ARISS
     report:
       sent: '59'
       rcvd: '59'
@@ -5496,7 +5496,7 @@ contacts:
       frequency: 145.990
       frequency_rx: 437.800
       via:
-        satellite: ISS
+        satellite: ARISS
     report:
       sent: '59'
       rcvd: '59'
@@ -5512,7 +5512,7 @@ contacts:
       frequency: 145.990
       frequency_rx: 437.800
       via:
-        satellite: ISS
+        satellite: ARISS
     report:
       sent: '59'
       rcvd: '59'
