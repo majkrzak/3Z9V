@@ -6007,3 +6007,88 @@ contacts:
     report:
       sent: '59'
       rcvd: '59'
+  # Jamnica
+  - datetime: 2023-06-06T17:42:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: F5FCH
+        operator:
+          name: Fil
+        location:
+          description: West France
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.2
+    report:
+      sent: '58'
+      rcvd: '59'
+  - datetime: 2023-06-06T18:37:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: G3VCG
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.215
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-06-06T18:48:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: RK3BX
+        operator:
+          name: Victor
+        location:
+          description: Near Moscow
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.245
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-06-06T18:59:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: LB4FH
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.267
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2023-06-06T19:27:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: GM1KNP
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.215
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-06-06T19:51:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: M7SZY
+        operator:
+          name: Marcin
+        location:
+          description: Liverpool
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.193
+    report:
+      sent: '55'
+      rcvd: '57'
