@@ -3995,6 +3995,90 @@ contacts:
     report:
       sent: 59 014NS
       rcvd: 59 047WA
+  - datetime: 2023-04-07T21:06:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: EA7LZ
+        location:
+          gridsquare: IM76
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075702
+    report:
+      sent: '+09'
+      rcvd: '-12'
+  - datetime: 2023-04-07T21:22:30Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: EA9TF
+        location:
+          gridsquare: IM75
+    connection:
+      band: 20m
+      mode: FT8
+      frequency: 14.075603
+    report:
+      sent: '-05'
+      rcvd: '-09'
+  - datetime: 2023-04-08T10:00:15Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: EK/RX3DPK
+        location:
+          gridsquare: LN20
+    connection:
+      band: 12m
+      mode: FT8
+      frequency: 24.91535
+    report:
+      sent: '+03'
+      rcvd: '-14'
+  - datetime: 2023-04-08T10:02:45Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: EA8CZ
+        location:
+          gridsquare: IL28
+    connection:
+      band: 12m
+      mode: FT8
+      frequency: 24.917311
+    report:
+      sent: '-11'
+      rcvd: '-08'
+  - datetime: 2023-04-08T10:06:15Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: PY1SX
+        location:
+          gridsquare: GG87
+    connection:
+      band: 15m
+      mode: FT8
+      frequency: 21.075343
+    report:
+      sent: '+01'
+      rcvd: '-15'
+  - datetime: 2023-04-08T10:21:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: TC100TR
+        location:
+          gridsquare: KM69
+    connection:
+      band: 17m
+      mode: FT8
+      frequency: 18.102122
+    report:
+      sent: '+03'
+      rcvd: '-10'
   - datetime: 2023-04-08T12:23:00Z
     stations:
       logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
