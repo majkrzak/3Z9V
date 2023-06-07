@@ -83,6 +83,15 @@ metadata:
     program:
       pga: MQ09
       sota: SP/BZ-050
+  - &2d59a49c-50f5-4e70-af3b-eefbb0207e75
+    dxcc: 269
+    gridsquare: KN09kn41
+    description: Kozie Żebro (888 m)
+    program:
+      pga: NS05
+      sota: SP/BS-003
+      pota: SP-0426,SP-0724
+      wwff: SPFF-1837
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -114,6 +123,9 @@ metadata:
   - &71607c88-427c-4e87-96d3-c79720fd11ba
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *8ff4db55-fd64-4efa-913a-25ad41390222
+  - &4a8fbc32-119b-4a39-89b5-f62d394fd729
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *2d59a49c-50f5-4e70-af3b-eefbb0207e75
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
