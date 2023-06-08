@@ -6279,3 +6279,66 @@ contacts:
     report:
       sent: '55'
       rcvd: '56'
+  # Jamnica
+  - datetime: 2023-06-08T08:58:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: IK2LEY/P
+        location:
+          program:
+            sota: I/LO-178
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.317
+    report:
+      sent: '57'
+      rcvd: '42'
+  - datetime: 2023-06-08T09:30:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP9FK/P
+        operator:
+          name: Kuba
+        location:
+          program:
+            sota: SP/BZ-050
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.173
+    report:
+      sent: '32'
+      rcvd: '55'
+  - datetime: 2023-06-08T09:46:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SQ9NIS/P
+        location:
+          program:
+            sota: SP/SP-002
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.141
+    report:
+      sent: '42'
+      rcvd: '59'
+  - datetime: 2023-06-08T10:17:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: F/M0MWL/P
+        location:
+          program:
+            sota: F/VO-001
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.142
+    report:
+      sent: '55'
+      rcvd: '57'
