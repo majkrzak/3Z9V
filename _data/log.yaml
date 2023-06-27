@@ -92,6 +92,14 @@ metadata:
       sota: SP/BS-003
       pota: SP-0426,SP-0724
       wwff: SPFF-1837
+  - &16456283-0400-4f46-965e-c8c52a7d06c8
+    dxcc: 269
+    gridsquare: KN09nn01
+    description: Shore of Klimkówa in Klimkówa
+    program:
+      pga: GO08
+      pota: SP-0426,SP-0724
+      wwff: SPFF-1837
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -126,6 +134,9 @@ metadata:
   - &4a8fbc32-119b-4a39-89b5-f62d394fd729
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *2d59a49c-50f5-4e70-af3b-eefbb0207e75
+  - &4a8ca57e-08c2-4ab3-af0d-150b53d450ce
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *16456283-0400-4f46-965e-c8c52a7d06c8
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -6342,3 +6353,58 @@ contacts:
     report:
       sent: '55'
       rcvd: '58'
+# Klimkówka
+  - datetime: 2023-06-08T13:30:00Z
+    stations:
+      logging: *4a8ca57e-08c2-4ab3-af0d-150b53d450ce
+      contacted:
+        callsign: 2E0GEY
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.310
+    report:
+      sent: '42'
+      rcvd: '41'
+  - datetime: 2023-06-08T13:46:00Z
+    stations:
+      logging: *4a8ca57e-08c2-4ab3-af0d-150b53d450ce
+      contacted:
+        callsign: SQ2RBY/P
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.169
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2023-06-08T13:53:00Z
+    stations:
+      logging: *4a8ca57e-08c2-4ab3-af0d-150b53d450ce
+      contacted:
+        callsign: SP2NBH/P
+        location:
+          description: Augustów
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.169
+    report:
+      sent: '55'
+      rcvd: '59'
+  - datetime: 2023-06-08T13:54:00Z
+    stations:
+      logging: *4a8ca57e-08c2-4ab3-af0d-150b53d450ce
+      contacted:
+        callsign: SP8PKT
+        operator:
+          name: Darek
+        location:
+          description: Biała Podlaska
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.169
+    report:
+      sent: '57'
+      rcvd: '59'
