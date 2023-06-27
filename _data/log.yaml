@@ -100,7 +100,7 @@ metadata:
       pga: GO08
       pota: SP-0426,SP-0724
       wwff: SPFF-1837
-  - &2d59a49c-50f5-4e70-af3b-eefbb0207e75
+  - &3d940da2-a5ba-45bf-8050-4c8b0e642bd3
     dxcc: 269
     gridsquare: KN09on62
     description: Magura Małastowska (813 m)
@@ -148,7 +148,7 @@ metadata:
     location: *16456283-0400-4f46-965e-c8c52a7d06c8
   - &3f96d15d-55b3-4aea-97ab-5892e8fbf0a8
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
-    location: *2d59a49c-50f5-4e70-af3b-eefbb0207e75
+    location: *3d940da2-a5ba-45bf-8050-4c8b0e642bd3
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
