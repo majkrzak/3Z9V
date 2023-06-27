@@ -6331,14 +6331,14 @@ contacts:
     stations:
       logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
       contacted:
-        callsign: F/M0MWL/P
+        callsign: F/M0WML/P
         location:
           program:
-            sota: F/VO-001
+            sota: FL/VO-001
     connection:
       band: 20m
       mode: SSB
       frequency: 14.142
     report:
       sent: '55'
-      rcvd: '57'
+      rcvd: '58'
