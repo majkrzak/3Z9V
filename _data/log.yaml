@@ -6455,7 +6455,7 @@ contacts:
     connection:
       band: 20m
       mode: SSB
-      frequency: 13.330
+      frequency: 14.330
     report:
       sent: '52'
       rcvd: '55'
