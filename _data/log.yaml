@@ -6504,7 +6504,7 @@ contacts:
     stations:
       logging: *75439174-cb8c-491b-b5b1-0653a976944f
       contacted:
-        callsign: G3UXJ
+        callsign: G3VXJ
     connection:
       band: 17m
       mode: SSB
