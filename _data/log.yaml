@@ -1,6 +1,7 @@
 metadata:
   callsigns:
   - &c8681d41-a6c1-496c-a0af-665610bc1cce 3Z9V
+  - &bf7c2809-7aaf-4ee9-9ad4-7b0bd54d7613 I1/3Z9V
   locations:
   - &b07c1a5b-286a-40ee-8943-4d2538a12185
     dxcc: 269
@@ -109,6 +110,12 @@ metadata:
       sota: SP/BS-010
       pota: SP-0426,SP-0724
       wwff: SPFF-1837
+  - &946d8328-2497-446b-8dc9-5f3f0d05406b
+    dxcc: 248
+    gridsquare: JN44td46
+    description: Monte Focone (487 m)
+    program:
+      sota: I/LG-074
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -149,6 +156,9 @@ metadata:
   - &3f96d15d-55b3-4aea-97ab-5892e8fbf0a8
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *3d940da2-a5ba-45bf-8050-4c8b0e642bd3
+  - &75439174-cb8c-491b-b5b1-0653a976944f
+    callsign: *bf7c2809-7aaf-4ee9-9ad4-7b0bd54d7613
+    location: *946d8328-2497-446b-8dc9-5f3f0d05406b
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -6489,3 +6499,88 @@ contacts:
     report:
       sent: '57'
       rcvd: '55'
+# SOTA Monte Focone (487 m)
+  - datetime: 2023-07-08T17:50:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: G3UXJ
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '59'
+      rcvd: '57'
+  - datetime: 2023-07-08T17:52:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: EA8DIR
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '58'
+      rcvd: '57'
+  - datetime: 2023-07-08T17:56:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: ON7DQ
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2023-07-08T18:27:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: EA8CFY
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '59'
+      rcvd: '41'
+  - datetime: 2023-07-08T18:32:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: EA7GV
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '57'
+      rcvd: '53'
+  - datetime: 2023-07-08T18:34:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: SQ9MDN
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '42'
+      rcvd: '31'
+  - datetime: 2023-07-08T18:37:00Z
+    stations:
+      logging: *75439174-cb8c-491b-b5b1-0653a976944f
+      contacted:
+        callsign: LA9DSA
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '41'
+      rcvd: '33'
