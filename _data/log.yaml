@@ -6584,3 +6584,205 @@ contacts:
     report:
       sent: '41'
       rcvd: '33'
+  #Jamnica operation
+  - datetime: 2023-07-15T12:41:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP8UFY/P
+        operator:
+          name: Wojtek
+        location:
+          program:
+            pga: ZA14
+            wwff: SPFF-1477
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.154
+    report:
+      sent: '56'
+      rcvd: '59'
+  - datetime: 2023-07-15T12:46:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP3ATB/P
+        location:
+          program:
+            pga: ZY03
+            pota: SP-1872,SP-2535
+            wwff: SPFF-0074
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.181
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-07-15T13:14:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: YO8SSH/P
+        location:
+          program:
+            pota: YO-0007
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.175
+    report:
+      sent: '56'
+      rcvd: '42'
+  - datetime: 2023-07-15T16:20:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP9NSA
+        operator:
+          name: Piotr
+        location:
+          description: Nowy Sącz
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.162
+    report:
+      sent: '59'
+      rcvd: 59 A
+  - datetime: 2023-07-15T17:01:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: OK/SQ9MDF/P
+        location:
+          program:
+            sota: OK/JC-002
+            wwff: OKFF-2886
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.188
+    report:
+      sent: '55'
+      rcvd: '59'
+  - datetime: 2023-07-15T17:31:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SQ9BQW/P
+        location:
+          program:
+            sota: SP/BZ-038
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.07
+    report:
+      sent: '55'
+      rcvd: '59'
+  - datetime: 2023-07-15T19:00:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP9RQA
+    connection:
+      band: 80m
+      mode: SSB
+      frequency: 3.731
+    report:
+      sent: '52'
+      rcvd: '21'
+  - datetime: 2023-07-15T19:15:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: SP9RQA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '52'
+      rcvd: '31'
+  - datetime: 2023-07-16T13:36:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: TM2TW
+        operator:
+          name: Domi
+        location:
+          description: SW France
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.28
+    report:
+      sent: '55'
+      rcvd: '58'
+  - datetime: 2023-07-16T13:45:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: DB6QW
+        operator:
+          name: Serg
+        location:
+          description: Goslor
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.247
+    report:
+      sent: '54'
+      rcvd: '56'
+  - datetime: 2023-07-16T15:04:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: YO5IA/P
+        operator:
+          name: Adi
+        location:
+          program:
+            sota: YO/EC-005
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.111
+    report:
+      sent: '52'
+      rcvd: '58'
+  - datetime: 2023-07-16T15:16:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: M0MMN
+        location:
+          program:
+            pota: G-0131
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.288
+    report:
+      sent: '52'
+      rcvd: '59'
+  - datetime: 2023-07-16T16:02:00Z
+    stations:
+      logging: *30a08820-6408-416f-b9eb-79d0c2eeca5e
+      contacted:
+        callsign: YU/OE5FLM
+        operator:
+          name: Franz
+        location:
+          description: NE Belgium
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.306
+    report:
+      sent: '52'
+      rcvd: '53'
