@@ -7024,3 +7024,46 @@ contacts:
     report:
       sent: '58'
       rcvd: '56'
+  - datetime: 2023-08-15T10:05:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OE5HDN
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-08-15T10:07:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SP9CQ
+        operator:
+          name: Józef
+        location:
+          description: Filipowice
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.135
+    report:
+      sent: '54'
+      rcvd: '56'
+  - datetime: 2023-08-15T10:15:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SP9TKW
+        location:
+          program:
+            sota: SP/BZ-008
+    connection:
+      band: 15m
+      mode: SSB
+      frequency: 21.29
+    report:
+      sent: '44'
+      rcvd: '55'
