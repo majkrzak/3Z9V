@@ -116,6 +116,15 @@ metadata:
     description: Monte Focone (487 m)
     program:
       sota: I/LG-074
+  - &2fa965ca-f307-442c-8223-89666e7a7ff2
+    dxcc: 269
+    gridsquare: KN09hk27
+    description: Radziejowa (1262 m)
+    program:
+      pga: NS15
+      sota: SP/BZ-007
+      pota: SP-0788
+      wwff: SPFF-0110
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -159,6 +168,9 @@ metadata:
   - &75439174-cb8c-491b-b5b1-0653a976944f
     callsign: *bf7c2809-7aaf-4ee9-9ad4-7b0bd54d7613
     location: *946d8328-2497-446b-8dc9-5f3f0d05406b
+  - &32b8af15-847d-4f8b-b31e-849e91a4653b
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *2fa965ca-f307-442c-8223-89666e7a7ff2
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -6786,3 +6798,114 @@ contacts:
     report:
       sent: '52'
       rcvd: '53'
+# Radziejowa
+  - datetime: 2023-08-15T09:17:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: ON7ZM
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:18:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OH3GZ
+        operator:
+          name: Janek
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '54'
+      rcvd: '57'
+  - datetime: 2023-08-15T09:19:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: ON7MD
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '43'
+      rcvd: '44'
+  - datetime: 2023-08-15T09:22:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OE5HDN
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '59'
+      rcvd: '31'
+  - datetime: 2023-08-15T09:23:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: HB9MKV
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '57'
+      rcvd: '41'
+  - datetime: 2023-08-15T09:24:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: EA1DHB
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '53'
+      rcvd: '44'
+  - datetime: 2023-08-15T09:25:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SM5LNE
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:26:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: F4ISZ
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '32'
+      rcvd: '22'
+  - datetime: 2023-08-15T09:30:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: EA7GV
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.322
+    report:
+      sent: '57'
+      rcvd: '52'
