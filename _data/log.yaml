@@ -6909,3 +6909,118 @@ contacts:
     report:
       sent: '57'
       rcvd: '52'
+  - datetime: 2023-08-15T09:40:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SP6KEP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '58'
+      rcvd: '59'
+  - datetime: 2023-08-15T09:41:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SP7MAZ
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '44'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:42:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SP9JKL
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:43:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OE6RCD/P
+        location:
+          program:
+            sota: OE/ST-242
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '43'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:44:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OE6MRX
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '31'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:46:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: OE3OPW
+        operator:
+          name: Piter
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '56'
+      rcvd: '56'
+  - datetime: 2023-08-15T09:49:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: S57ILF
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '42'
+      rcvd: '31'
+  - datetime: 2023-08-15T09:50:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SQ9MDF
+        operator:
+          name: Leszek
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2023-08-15T09:52:00Z
+    stations:
+      logging: *32b8af15-847d-4f8b-b31e-849e91a4653b
+      contacted:
+        callsign: SQ5JP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.196
+    report:
+      sent: '58'
+      rcvd: '56'
