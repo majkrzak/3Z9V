@@ -7178,7 +7178,7 @@ contacts:
     stations:
       logging: *795aed50-b93e-4db9-95f2-aae0e791189f
       contacted:
-        callsign: EA7DDW
+        callsign: EA8DDW
     connection:
       band: 20m
       mode: SSB
