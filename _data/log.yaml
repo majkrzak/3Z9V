@@ -125,6 +125,15 @@ metadata:
       sota: SP/BZ-007
       pota: SP-0788
       wwff: SPFF-0110
+  - &54416973-e170-46b2-a68e-6053658be466
+    dxcc: 269
+    gridsquare: KN09lm53
+    description: Hłocza (774 m)
+    program:
+      pga: NS08
+      sota: SP/BS-015
+      pota: SP-0426,SP-0724
+      wwff: SPFF-1837
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -171,6 +180,9 @@ metadata:
   - &32b8af15-847d-4f8b-b31e-849e91a4653b
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *2fa965ca-f307-442c-8223-89666e7a7ff2
+  - &795aed50-b93e-4db9-95f2-aae0e791189f
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *54416973-e170-46b2-a68e-6053658be466
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -7137,4 +7149,102 @@ contacts:
     report:
       send: 55
       rcvd: 43
-
+# Hłocza (774 m)
+  - datetime: 2023-09-04T16:14:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.290
+    report:
+      send: 53
+      rcvd: 42
+  - datetime: 2023-09-04T16:15:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: EA7GU
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.290
+    report:
+      send: 53
+      rcvd: 51
+  - datetime: 2023-09-04T16:16:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: EA7DDW
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.290
+    report:
+      send: 53
+      rcvd: 55
+  - datetime: 2023-09-04T16:17:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: M7CQX
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.290
+    report:
+      send: 59
+      rcvd: 58
+  - datetime: 2023-09-04T16:23:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: DL8DXL
+        operator:
+          name: Fred
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.188
+    report:
+      send: 55
+      rcvd: 55
+  - datetime: 2023-09-04T16:24:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: ON7ZM
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.188
+    report:
+      send: 54
+      rcvd: 55
+  - datetime: 2023-09-04T16:25:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: OK2KG
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.188
+    report:
+      send: 55
+      rcvd: 54
+  - datetime: 2023-09-04T16:26:00Z
+    stations:
+      logging: *795aed50-b93e-4db9-95f2-aae0e791189f
+      contacted:
+        callsign: OK3KW
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.188
+    report:
+      send: 55
+      rcvd: 44
