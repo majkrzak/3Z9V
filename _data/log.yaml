@@ -7130,7 +7130,11 @@ contacts:
         callsign: OE5TOP
         operator:
           name: Alfred
-      connection:
-        band: 40m
-        mode: SSB
-        frequency: 7.170
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.170
+    report:
+      send: 55
+      rcvd: 43
+
