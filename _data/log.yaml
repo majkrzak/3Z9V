@@ -7248,3 +7248,79 @@ contacts:
     report:
       sent: '55'
       rcvd: '44'
+  # Kozie Żebro (888 m)
+  - datetime: 2023-09-08T15:40:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: HB9GVW/P
+        location:
+          program:
+            sota: HB/VD-039
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '57'
+      rcvd: '47'
+  - datetime: 2023-09-08T15:57:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: ON8JHD
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.295
+    report:
+      sent: '56'
+      rcvd: '59'
+  - datetime: 2023-09-08T15:58:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.295
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-08T15:59:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: EA2DDG
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.295
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-08T16:00:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: EA1DHB
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.295
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-08T16:08:00Z
+    stations:
+      logging: *4a8fbc32-119b-4a39-89b5-f62d394fd729
+      contacted:
+        callsign: EC8ADS
+    connection:
+      band: 17m
+      mode: SSB
+      frequency: 18.14
+    report:
+      sent: '42'
+      rcvd: '51'
