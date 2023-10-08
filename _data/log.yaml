@@ -134,6 +134,14 @@ metadata:
       sota: SP/BS-015
       pota: SP-0426,SP-0724
       wwff: SPFF-1837
+  - &892a901b-147e-4059-af70-466b3a9e6a67
+    dxcc: 269
+    gridsquare: JO94ee07
+    description: Przywidz
+    program:
+      pga: UG05
+      pota: SP-2280,SP-2500
+      wwff: SPFF-2461
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -183,6 +191,9 @@ metadata:
   - &795aed50-b93e-4db9-95f2-aae0e791189f
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *54416973-e170-46b2-a68e-6053658be466
+  - &27e4c801-e034-4c26-86c6-c4b94cea2533
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *892a901b-147e-4059-af70-466b3a9e6a67
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -7324,3 +7335,936 @@ contacts:
     report:
       sent: '42'
       rcvd: '51'
+  # Przywidz
+  - datetime: 2023-09-18T17:58:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: F4DVO
+        operator:
+          name: Arnold
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.248
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2023-09-19T07:13:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DM1FG/P
+        location:
+          program:
+            wwff: DLFF-0243
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '54'
+      rcvd: '58'
+  - datetime: 2023-09-19T13:33:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP9RXP
+        operator:
+          name: Piotr
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.17
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2023-09-19T13:34:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8QC
+        operator:
+          name: Andrzej
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.17
+    report:
+      sent: '55'
+      rcvd: '44'
+  - datetime: 2023-09-19T17:01:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: EA1FIC
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.275
+    report:
+      sent: '52'
+      rcvd: '22'
+  - datetime: 2023-09-19T17:16:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IQ2CP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.134
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T05:41:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: UA3SAG
+        operator:
+          name: Victor
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.244
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:09:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DR44WCA
+        location:
+          program:
+            wwff: DLFF-0093
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.14
+    report:
+      sent: '56'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:16:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DJ1SD
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '43'
+      rcvd: '57'
+  - datetime: 2023-09-20T07:20:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ9CWO
+        operator:
+          name: Janek
+        location:
+          description: Olesno
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '58'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:21:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ6NSG
+        operator:
+          name: Adam
+        location:
+          description: Głogów
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:24:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP7MW
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '53'
+      rcvd: '35'
+  - datetime: 2023-09-20T07:25:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IZ2BHQ
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:26:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OZ9VO
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:27:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6LTI
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:28:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6OJG
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:29:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DK6TW
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:30:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6OPZ
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '55'
+      rcvd: '58'
+  - datetime: 2023-09-20T07:31:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8IMG
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:32:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP7SQM
+        operator:
+          name: Robert
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '58'
+      rcvd: '58'
+  - datetime: 2023-09-20T07:33:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: ON4VT
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '54'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:34:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ2AJN
+        operator:
+          name: Andrzej
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '53'
+      rcvd: '45'
+  - datetime: 2023-09-20T07:35:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP2PHA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '53'
+      rcvd: '45'
+  - datetime: 2023-09-20T07:36:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: 9A1WW
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:37:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DL3NM
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '55'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:39:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8DR
+        operator:
+          name: Darek
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-20T07:40:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ5AAJ
+        operator:
+          name: Janusz
+        location:
+          description: Na Górkach
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-20T07:44:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6BBE
+        operator:
+          name: Zbigniew
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.171
+    report:
+      sent: '54'
+      rcvd: '57'
+  - datetime: 2023-09-20T10:08:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: F4JJS
+        operator:
+          name: Carls
+        location:
+          description: 75 NE Paris
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.241
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T10:20:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: S53EO
+        operator:
+          name: Milosz
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.241
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2023-09-20T10:29:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: S50O
+        operator:
+          name: Miran
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.241
+    report:
+      sent: '57'
+      rcvd: '56'
+  - datetime: 2023-09-20T10:33:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: RA3LCU
+        operator:
+          name: Anatoli
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.241
+    report:
+      sent: '57'
+      rcvd: '56'
+  - datetime: 2023-09-20T10:39:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: RA3GAS
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.241
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2023-09-20T18:10:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP9RQA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.163
+    report:
+      sent: '33'
+      rcvd: '21'
+  - datetime: 2023-09-20T18:14:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: EA3HAB
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.163
+    report:
+      sent: '53'
+      rcvd: '57'
+  - datetime: 2023-09-20T18:16:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SO6B
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.163
+    report:
+      sent: '56'
+      rcvd: '47'
+  - datetime: 2023-09-20T18:19:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: ES1IP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.163
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-20T18:24:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: UT5PI
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.163
+    report:
+      sent: '52'
+      rcvd: '59'
+  - datetime: 2023-09-20T18:34:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: F4DX
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 14.244
+    report:
+      sent: '31'
+      rcvd: '55'
+  - datetime: 2023-09-21T04:51:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: I4RHP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '43'
+      rcvd: '54'
+  - datetime: 2023-09-21T04:53:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: I4RHP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '56'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:00:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OH3RM
+        operator:
+          name: Marco
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '56'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:04:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OM5TX
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '53'
+      rcvd: '59'
+  - datetime: 2023-09-21T05:16:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IW2BNA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '52'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:21:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OH3LUK
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '52'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:23:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: 9A2KI
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:24:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OE2MRN
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '56'
+      rcvd: '53'
+  - datetime: 2023-09-21T05:25:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: LZ3SM
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '58'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:26:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OH1RR
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '58'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:27:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DH4PSG
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '56'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:28:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8QC
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:32:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: S58DAL
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '52'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:33:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ8IJR
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-21T05:40:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ2LKJ
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '41'
+      rcvd: '33'
+  - datetime: 2023-09-21T05:44:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OE5CSP
+        operator:
+          name: Chris
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '56'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:49:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IK1GPG
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:51:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ6ELK
+        operator:
+          name: Marek
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:53:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8DJY
+        operator:
+          name: Ryszard
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2023-09-21T05:57:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SO5CAL
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-21T05:58:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8BJU
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2023-09-21T05:59:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6LTI
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '53'
+      rcvd: '57'
+  - datetime: 2023-09-21T06:00:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SQ9FMC
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-21T06:01:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP6ARA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '53'
+      rcvd: '57'
+  - datetime: 2023-09-21T06:02:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: DK3DUA
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '52'
+      rcvd: '55'
+  - datetime: 2023-09-21T06:03:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IK3HMB
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '49'
+      rcvd: '55'
+  - datetime: 2023-09-21T06:04:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8DHJ
+        operator:
+          name: Henryk
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2023-09-21T06:05:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: OH9FOXI
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-21T06:06:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IZ2IHO
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '53'
+      rcvd: '44'
+  - datetime: 2023-09-21T06:07:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: IK1GCB
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '22'
+      rcvd: '55'
+  - datetime: 2023-09-21T06:08:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SO8DAN
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2023-09-21T06:09:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8BJU
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '58'
+      rcvd: '59'
+  - datetime: 2023-09-21T06:12:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: SP8DWI
+        operator:
+          name: Mirek
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.144
+    report:
+      sent: '57'
+      rcvd: '58'
+  - datetime: 2023-09-21T06:18:00Z
+    stations:
+      logging: *27e4c801-e034-4c26-86c6-c4b94cea2533
+      contacted:
+        callsign: UT5ZC
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.244
+    report:
+      sent: '57'
+      rcvd: '57'
