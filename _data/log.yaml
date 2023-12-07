@@ -151,6 +151,14 @@ metadata:
       sota: SP/BZ-084
       pota: SP-0788,SP-2400
       wwff: SPFF-0110
+  - &1a9da595-0bcf-4c66-9bff-1e700d1dda80
+    dxcc: 269
+    gridsquare: KN09lm33
+    description: Parking Leśny Jaworynki Kamianna
+    program:
+      pga: NS08
+      pota: SP-0426,SP-0724
+      wwff: SPFF-1837
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -206,6 +214,9 @@ metadata:
   - &72055f56-885e-4581-9f0a-25163b056b76
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *657d0800-59ca-458b-bf8e-646d831e86ef
+  - &827068e3-b2a2-4882-a320-c24db553711f
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *1a9da595-0bcf-4c66-9bff-1e700d1dda80
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -8825,4 +8836,22 @@ contacts:
       frequency: 18.132
     report:
       sent: '42'
+      rcvd: '55'
+# Kamianna parking
+  - datetime: 2023-10-29T12:54:00Z
+    stations:
+      logging: *827068e3-b2a2-4882-a320-c24db553711f
+      contacted:
+        callsign: SP9MCN/P
+        operator:
+          name: Marcin
+        location:
+          program:
+            sota: SP/BZ-085
+    connection:
+      band: 2m
+      mode: FM
+      frequency: 145.55
+    report:
+      sent: '57'
       rcvd: '55'
