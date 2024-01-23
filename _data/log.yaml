@@ -8906,7 +8906,7 @@ contacts:
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
-        callsign: EI7GW
+        callsign: EI7GV
     connection:
       band: 20m
       mode: SSB
@@ -8948,6 +8948,18 @@ contacts:
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.328
+    report:
+      sent: '44'
+      rcvd: '44'
+  - datetime: 2023-12-26T12:13:00Z
+    stations:
+      logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
+      contacted:
         callsign: HB9MKV
     connection:
       band: 20m
@@ -8956,7 +8968,7 @@ contacts:
     report:
       sent: '59'
       rcvd: '56'
-  - datetime: 2023-12-26T12:13:00Z
+  - datetime: 2023-12-26T12:14:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -8968,7 +8980,7 @@ contacts:
     report:
       sent: '55'
       rcvd: '55'
-  - datetime: 2023-12-26T12:14:00Z
+  - datetime: 2023-12-26T12:15:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -8980,7 +8992,7 @@ contacts:
     report:
       sent: '57'
       rcvd: '57'
-  - datetime: 2023-12-26T12:15:00Z
+  - datetime: 2023-12-26T12:16:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -8992,7 +9004,7 @@ contacts:
     report:
       sent: '44'
       rcvd: '55'
-  - datetime: 2023-12-26T12:16:00Z
+  - datetime: 2023-12-26T12:17:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -9004,7 +9016,7 @@ contacts:
     report:
       sent: '55'
       rcvd: '53'
-  - datetime: 2023-12-26T12:19:00Z
+  - datetime: 2023-12-26T12:18:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -9016,7 +9028,7 @@ contacts:
     report:
       sent: '54'
       rcvd: '56'
-  - datetime: 2023-12-26T12:20:00Z
+  - datetime: 2023-12-26T12:19:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
@@ -9030,7 +9042,7 @@ contacts:
     report:
       sent: '58'
       rcvd: '58'
-  - datetime: 2023-12-26T12:21:00Z
+  - datetime: 2023-12-26T12:20:00Z
     stations:
       logging: *46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
       contacted:
