@@ -166,6 +166,15 @@ metadata:
     program:
       pga: NS04
       sota: SP/BS-019
+  - &5a4b25ae-edc3-4f8b-9896-7714efc3966d
+    dxcc: 269
+    gridsquare: KN09eo59
+    description: Modyń (1028 m)
+    program:
+      pga: NS09
+      sota: SP/BZ-030
+      pota: PL-0724
+      wwff: SPFF-0384
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -227,6 +236,9 @@ metadata:
   - &46efb7d0-2ba6-4b2f-a77c-ee7b939261f9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *6a336f87-e2f5-493b-a758-5d6a374f98e9
+  - &1118ee94-ec2c-4993-b59c-6116532f9fdf
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *5a4b25ae-edc3-4f8b-9896-7714efc3966d
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -9522,3 +9534,142 @@ contacts:
     report:
       sent: '56'
       rcvd: '43'
+  # SP/BS-030
+  - datetime: 2024-03-16T10:30:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: ON7ZM
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.32
+    report:
+      sent: '57'
+      rcvd: '56'
+  - datetime: 2024-03-16T10:35:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: SV3IEG
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2024-03-16T10:36:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: F4WBN
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '53'
+      rcvd: '59'
+  - datetime: 2024-03-16T10:37:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: PC5Z
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '42'
+      rcvd: '56'
+  - datetime: 2024-03-16T10:38:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: SM5LNE
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '53'
+      rcvd: '59'
+  - datetime: 2024-03-16T10:39:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: IK2LEY/P
+        location:
+          program:
+            sota: I/LO-231
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2024-03-16T10:40:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '41'
+      rcvd: '44'
+  - datetime: 2024-03-16T10:41:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: G4FVK
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2024-03-16T10:42:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: M0MDA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2024-03-16T10:43:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: SP9MA/P
+        location:
+          program:
+            sota: SP/BZ-041
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.305
+    report:
+      sent: '57'
+      rcvd: '59'
+  - datetime: 2024-03-16T11:00:00Z
+    stations:
+      logging: *1118ee94-ec2c-4993-b59c-6116532f9fdf
+      contacted:
+        callsign: SQ9JTR/P
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 28.418
+    report:
+      sent: '59'
+      rcvd: '59'
