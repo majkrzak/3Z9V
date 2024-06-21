@@ -175,6 +175,15 @@ metadata:
       sota: SP/BZ-030
       pota: PL-0724
       wwff: SPFF-0384
+  - &24c99ed0-6640-49fe-a86e-05a48bf4243c
+    dxcc: 269
+    gridsquare: KN09qn38
+    description: Wątkowa (846 m)
+    program:
+      pga: JS03
+      sota: SP/BS-009
+      pota: PL-0495,PL-0724,PL-0426,PL-1993
+      wwff: SPFF-0010
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -239,6 +248,9 @@ metadata:
   - &1118ee94-ec2c-4993-b59c-6116532f9fdf
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *5a4b25ae-edc3-4f8b-9896-7714efc3966d
+  - &620729ee-16fe-4adb-99d3-b4cdab5ec935
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *24c99ed0-6640-49fe-a86e-05a48bf4243c
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -9673,3 +9685,121 @@ contacts:
     report:
       sent: '59'
       rcvd: '59'
+  # Wątkowa (846 m)
+  - datetime: 2024-03-17T11:00:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: IU4RTQ/P
+        operator:
+          name: Claudio
+        location:
+          description: Bolognia
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.333
+    report:
+      sent: '59'
+      rcvd: '55'
+  - datetime: 2024-03-17T11:15:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: EA1DHB
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.31
+    report:
+      sent: '52'
+      rcvd: '55'
+  - datetime: 2024-03-17T11:17:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: IW3AGO/P
+        location:
+          program:
+            sota: I/AA-209
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.31
+    report:
+      sent: '51'
+      rcvd: '55'
+  - datetime: 2024-03-17T11:18:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: SV3IEG
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.31
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2024-03-17T11:20:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: LA5WNA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.31
+    report:
+      sent: '53'
+      rcvd: '53'
+  - datetime: 2024-03-17T11:22:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.31
+    report:
+      sent: '51'
+      rcvd: '51'
+  - datetime: 2024-03-17T11:35:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: EA7ANC
+        location:
+          description: Grenada
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 28.335
+    report:
+      sent: '55'
+      rcvd: '55'
+  - datetime: 2024-03-17T11:40:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: SQ8IJR
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 28.335
+    report:
+      sent: '54'
+      rcvd: '57'
+  - datetime: 2024-03-17T11:45:00Z
+    stations:
+      logging: *620729ee-16fe-4adb-99d3-b4cdab5ec935
+      contacted:
+        callsign: SQ8RKR
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 28.335
+    report:
+      sent: '55'
+      rcvd: '57'
