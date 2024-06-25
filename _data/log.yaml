@@ -184,6 +184,15 @@ metadata:
       sota: SP/BS-009
       pota: PL-0495,PL-0724,PL-0426,PL-1993
       wwff: SPFF-0010
+  - &55e884bc-24c6-40f4-87ab-1c49a43e0298
+    dxcc: 269
+    gridsquare: KN09pk17
+    description: Javorina (881 m)
+    program:
+      pga: GO10
+      sota: OM/PO-040
+      pota: PL-0724,PL-0426
+      wwff: SPFF-1837
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -251,6 +260,9 @@ metadata:
   - &620729ee-16fe-4adb-99d3-b4cdab5ec935
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *24c99ed0-6640-49fe-a86e-05a48bf4243c
+  - &1d200cae-29ae-4f64-a9d8-dd63b5b66c95
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *55e884bc-24c6-40f4-87ab-1c49a43e0298
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -9803,3 +9815,70 @@ contacts:
     report:
       sent: '55'
       rcvd: '57'
+  # Javorina (881 m)
+  - datetime: 2024-05-04T09:50:00Z
+    stations:
+      logging: *1d200cae-29ae-4f64-a9d8-dd63b5b66c95
+      contacted:
+        callsign: SO6K/P
+        operator:
+          name: Dariusz
+        location:
+          description: Łopień
+          program:
+            sota: SP/BZ-041
+    connection:
+      band: 2m
+      mode: FM
+      frequency: 145.55
+    report:
+      sent: '31'
+      rcvd: '53'
+  - datetime: 2024-05-04T09:58:00Z
+    stations:
+      logging: *1d200cae-29ae-4f64-a9d8-dd63b5b66c95
+      contacted:
+        callsign: SO9P/P
+        operator:
+          name: Mariusz
+        location:
+          program:
+            sota: SP/BP-009
+    connection:
+      band: 2m
+      mode: FM
+      frequency: 145.55
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2024-05-04T10:37:00Z
+    stations:
+      logging: *1d200cae-29ae-4f64-a9d8-dd63b5b66c95
+      contacted:
+        callsign: SP9ML/P
+        location:
+          program:
+            sota: SP/BZ-007
+    connection:
+      band: 2m
+      mode: FM
+      frequency: 145.55
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2024-05-04T10:59:00Z
+    stations:
+      logging: *1d200cae-29ae-4f64-a9d8-dd63b5b66c95
+      contacted:
+        callsign: SQ9CAQ/P
+        operator:
+          name: Maciek
+        location:
+          description: Brzanka
+    connection:
+      band: 2m
+      mode: FM
+      frequency: 145.55
+    report:
+      sent: '59'
+      rcvd: '59'
