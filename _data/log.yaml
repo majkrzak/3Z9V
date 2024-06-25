@@ -9882,3 +9882,25 @@ contacts:
     report:
       sent: '59'
       rcvd: '59'
+  # Mierki
+  - datetime: 2024-06-16T09:25:00Z
+    stations:
+      logging:
+        callsign: 3Z9V
+        location:
+          dxcc: 269
+          gridsquare: KO03eo23
+          description: Mierki
+      contacted:
+        callsign: IK6BGJ
+        operator:
+          name: Justin
+        location:
+          description: Pescara
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.2775
+    report:
+      sent: '58'
+      rcvd: '57'
