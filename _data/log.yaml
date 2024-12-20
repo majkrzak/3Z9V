@@ -202,6 +202,15 @@ metadata:
       sota: SP/BZ-010
       pota: PL-0724,PL-0881,PL-0921,PL-2486
       wwff: SPFF-0007
+  - &79ce3f89-0851-4784-a754-4cb6e87d48bc
+    dxcc: 269
+    gridsquare: JO80kj83
+    description: Borówkowa (900 m)
+    program:
+      pga: KV08
+      sota: SP/SW-003
+      pota: PL-1635
+      wwff: SPFF-0133
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -275,6 +284,9 @@ metadata:
   - &0ad5fad0-bc29-4cb9-92b7-958e786ca4cf
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *9b177a63-b3cb-4bb4-9a31-4bc19dfc98af
+  - &422113c4-7041-4f1f-99f4-fda47dd14de0
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *79ce3f89-0851-4784-a754-4cb6e87d48bc
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -10027,3 +10039,286 @@ contacts:
     report:
       sent: '59'
       rcvd: '55'
+# Borówkowa (900 m)
+  - datetime: 2024-07-29T09:16:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: EA2DT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '54'
+      rcvd: '44'
+  - datetime: 2024-07-29T09:17:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: F4WBN
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '57'
+      rcvd: '58'
+  - datetime: 2024-07-29T09:18:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: HB9DHA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '59'
+      rcvd: '57'
+  - datetime: 2024-07-29T09:19:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: EA4GU
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2024-07-29T09:20:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: OK1KT
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '42'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:21:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: MW0CBC
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '57'
+      rcvd: '52'
+  - datetime: 2024-07-29T09:22:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: HB9EVF/P
+        location:
+          program:
+            sota: HB/VS-114
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '24'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:23:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: HB9HXJ/P
+        location:
+          program:
+            sota: HB/VS-114
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '22'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:24:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: HB9AGH
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '33'
+      rcvd: '53'
+  - datetime: 2024-07-29T09:25:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SM5LNE
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:26:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: EA7GV
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '59'
+      rcvd: '52'
+  - datetime: 2024-07-29T09:27:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: G0RQL
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '55'
+      rcvd: '57'
+  - datetime: 2024-07-29T09:28:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: GI0AZB
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.325
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:42:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: S57ILF
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '59'
+      rcvd: '44'
+  - datetime: 2024-07-29T09:43:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SP6KEP
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:44:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: 9A4FM
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2024-07-29T09:45:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SQ9CWO
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '44'
+      rcvd: '44'
+  - datetime: 2024-07-29T09:46:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SQ9PBR
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '59'
+      rcvd: '54'
+  - datetime: 2024-07-29T09:47:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: IK2LEY/P
+        location:
+          program:
+            sota: I/AA-166
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '54'
+      rcvd: '55'
+  - datetime: 2024-07-29T09:48:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: OM1ALT/P
+        location:
+          program:
+            sota: OM/ZA-068
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '55'
+      rcvd: '33'
+  - datetime: 2024-07-29T09:49:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SP9HGN
+        operator:
+          name: Jarek
+        location:
+          description: Jaworzno
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2024-07-29T09:50:00Z
+    stations:
+      logging: *422113c4-7041-4f1f-99f4-fda47dd14de0
+      contacted:
+        callsign: SQ8V
+        operator:
+          name: Janusz
+    connection:
+      band: 40m
+      mode: SSB
+      frequency: 7.165
+    report:
+      sent: '55'
+      rcvd: '41'
