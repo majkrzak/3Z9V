@@ -211,6 +211,15 @@ metadata:
       sota: SP/SW-003
       pota: PL-1635
       wwff: SPFF-0133
+  - &3849506a-1eb7-4fb4-bcea-9abd53c0b874
+    dxcc: 269
+    gridsquare: KN09dp37
+    description: Mogielica (1171 m)
+    program:
+      pga: LI03
+      sota: SP/BZ-014
+      pota: PL-0724,PL-0921,PL-2291
+      wwff: SPFF-2425
   loggings:
   - &28bf1ff6-8171-4d55-a735-c7880f45b7d9
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
@@ -287,6 +296,10 @@ metadata:
   - &422113c4-7041-4f1f-99f4-fda47dd14de0
     callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
     location: *79ce3f89-0851-4784-a754-4cb6e87d48bc
+  - &5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+    callsign: *c8681d41-a6c1-496c-a0af-665610bc1cce
+    location: *3849506a-1eb7-4fb4-bcea-9abd53c0b874
+
 contacts:
   # First activation on camping site in Radocyna
   - datetime: 2022-06-04T19:17:00Z
@@ -10322,3 +10335,105 @@ contacts:
     report:
       sent: '55'
       rcvd: '41'
+# Mogielica (1171m)
+  - datetime: 2025-03-09T11:24:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: DL7BC/P
+        location:
+          program:
+            sota: DM/BW-293
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.326
+    report:
+      sent: '54'
+      rcvd: '56'
+  - datetime: 2025-03-09T11:33:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: HB9DHA
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.329
+    report:
+      sent: '49'
+      rcvd: '55'
+  - datetime: 2025-03-09T11:34:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: SV3IEG
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.329
+    report:
+      sent: '59'
+      rcvd: '55'
+  - datetime: 2025-03-09T11:35:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: EA3HP
+    connection:
+      band: 20m
+      mode: SSB
+      frequency: 14.329
+    report:
+      sent: '33'
+      rcvd: '55'
+  - datetime: 2025-03-09T11:47:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: EA3EVL
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 21.330
+    report:
+      sent: '44'
+      rcvd: '55'
+  - datetime: 2025-03-09T11:48:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: SP9PA
+        operator:
+          name: Paweł
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 21.330
+    report:
+      sent: '59'
+      rcvd: '59'
+  - datetime: 2025-03-09T11:49:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: GW0RQC
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 21.330
+    report:
+      sent: '57'
+      rcvd: '55'
+  - datetime: 2025-03-09T11:50:00Z
+    stations:
+      logging: *5a1ca4e1-f1f1-4399-8b47-6e512d79117d
+      contacted:
+        callsign: SQ9PBR
+    connection:
+      band: 10m
+      mode: SSB
+      frequency: 21.330
+    report:
+      sent: '57'
+      rcvd: '58'
